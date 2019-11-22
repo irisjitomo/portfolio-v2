@@ -1,0 +1,28 @@
+nav{
+    display:flex;
+    justify-content: flex-end;;
+    background-color: black; 
+    border-bottom: 1px solid white;
+}
+
+.header-links {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header a {
+    color: black;
+    color: white;
+    text-decoration: none;
+    margin: 2%;
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+		// color: rgb(27, 27, 27);
+		text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+    }

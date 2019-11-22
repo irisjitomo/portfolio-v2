@@ -1,0 +1,65 @@
+footer {
+    // margin:20px;
+    margin-top:150px;
+    margin-bottom: 0;
+    display:flex;
+    justify-content: space-between;
+    // background-color: rgba(255, 255, 255, .15);  
+    // backdrop-filter: blur(2px);
+    background: black;
+    height: auto;
+    border-top: 1px solid white;
+
+}
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(65, 65, 65, 0.15);  
+    backdrop-filter: blur(0px);   
+    // margin-top: 30px;
+    // background-color: rgba(0, 157, 248, 0.15);
+    // backdrop-filter: blur(5px);
+    border-radius:10px;
+    width:350px;
+    p {
+        color: white;
+        align-self: flex-start;
+        font-size: 1.3rem;
+    //     background-color: rgba(0, 157, 248, 0.15);
+	// backdrop-filter: blur(5px);
+        padding: 7px;
+        border-radius: 7px;
+        margin-left: 15px;
+        color: rgb(255, 255, 255);
+		// color: rgb(27, 27, 27);
+		text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+    }
+}
+.navigation {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(65, 65, 65, 0.15);  
+    backdrop-filter: blur(0px); 
+    border-radius:10px;
+    width:350px;
+    .Link, .NavLink {
+        color: white;
+        align-self: flex-end;
+        font-size: 1.3rem;
+        margin:19.5px;
+        text-decoration: none;
+        padding: 7px;
+        border-radius: 7px;
+        color: rgb(255, 255, 255);
+		// color: rgb(27, 27, 27);
+		text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+    }  
+}

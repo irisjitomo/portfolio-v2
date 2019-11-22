@@ -1,0 +1,101 @@
+.about-home {
+	margin: auto;
+	max-width: 1250px;
+	// max-height: auto;
+	padding: 20px;
+	// display: flex;
+	// flex-direction: row;
+	// justify-content: space-evenly;
+	// background: black;
+	// background-color: rgba(255, 255, 255, 0.15);
+	// backdrop-filter: blur(5px);
+	// border: 2px solid black;
+	border-radius: 50px;
+	padding: 9px;
+	text-align: center;
+	margin-top: 150px;
+
+	.aboutMeCard {
+		display: flex;
+		flex-direction: row;
+		// justify-content: space-between;
+		border: 2px solid black;
+		border-radius: 50px;
+		margin: 2%;
+		// width: 90%;
+		align-content: center;
+		align-items: center;
+		background-image: url('../images/city-bf3.jpg');
+		background-size: cover;
+		.aboutMe {
+			margin: 5%;
+			width: 50%;
+			background-color: rgba(255, 255, 255, 0.15);
+			backdrop-filter: blur(5px);
+			border-radius: 50px;
+            padding: 18px;
+            align-content: center;
+		align-items: center;
+			h1,
+			h2,
+			h3,
+			h4 {
+				color: white;
+			}
+		}
+		.image-card {
+			width: 50%;
+			margin: 5%;
+			margin-top: 8%;
+            padding: 30px;
+            align-content: center;
+        align-items: center;
+        
+			// border: 2px solid black;
+
+			img {
+				width: 95%;
+				height: auto;
+				border-radius: 50px;
+			}
+		}
+	}
+
+	.skills-cards {
+		// border: 1px solid black;
+		margin: 2%;
+		display: flex;
+		justify-content: space-around;
+
+		.skill-card1 {
+			display: flex;
+			border: 2px solid black;
+			border-radius: 50px;
+			width: 40%;
+			padding: 1%;
+			background-image: url('../images/cloudy-city.jpg');
+			background-size: cover;
+			ul {
+				margin-left: 18.5%;
+				font-size: 1.2rem;
+				font-weight: bold;
+			}
+		}
+		.skill-card2 {
+			display: flex;
+			border: 2px solid black;
+			border-radius: 50px;
+			width: 40%;
+			padding: 1%;
+			background-image: url('../images/waterfront-night.jpg');
+			background-size: cover;
+			ul {
+				margin-left: 25%;
+				margin-bottom: 5%;
+				font-size: 1.2rem;
+				font-weight: bold;
+				color: white;
+			}
+		}
+	}
+}

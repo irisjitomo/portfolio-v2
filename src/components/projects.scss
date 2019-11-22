@@ -1,0 +1,139 @@
+
+.projects-home {
+	text-align: center;
+	background-image: url('../images/city-BW-upward.jpg');
+	background-size: cover;
+	font-size: 1.3rem;
+}
+
+.overall-background-projects {
+	background-color:black;
+
+}
+
+.route-project-card{
+    background-image: url('../images/city-upward-lampost.jpg');
+	background-size: cover;
+}
+
+.route-project-card-2 {
+	background-image: url('../images/city-neon.jpg');
+	background-size: cover;
+	h1 {
+		color: white;
+	}
+}
+
+.route-project-card-3 {
+	background-image: url('../images/city-distance.jpg');
+	background-size: cover;
+	h1 {
+		color: white;
+	}
+	.project-block-2 .libraries li{
+		a {
+			color: white;
+			text-decoration: none;
+			// display: flex;
+		}
+		a:hover {
+			color:#00A0C6;
+	}
+}
+}
+
+.route-project-card, .route-project-card-2, .route-project-card-3 {
+	width: 80%;
+	display: flex;
+	margin: 10%;
+	border: 1px solid black;
+	border-radius: 25px;
+	align-items: center;
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5 {
+		border-bottom: 1px solid black;
+		width: auto;
+	}
+
+	.project-block-1 {
+		display: flex;
+		flex-direction: column;
+		margin: 30px;
+        width: 50%;
+        
+
+		.links {
+			align-self: flex-start;
+            margin: 15px;
+            padding:2.5%;
+            border-radius: 30px;
+            background-color: rgba(255, 255, 255, 0.15);
+	        backdrop-filter: blur(5px);
+			p {
+                display: flex;
+                color: white;
+            }
+            a {
+				color: white;
+				text-decoration: none;
+				display: flex;
+			}
+			a:hover {
+				color:#00A0C6; 
+     			text-decoration:none; 
+     			cursor:pointer;
+			}
+		}
+	}
+
+	.project-block-2 {
+		flex-direction: column;
+		margin: 30px;
+		// border: 1px solid black;
+		width: 40%;
+		border-radius: 50px;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(5px);
+            p {
+                display: flex;
+                color: white;
+            }
+            li {
+				color: white;				
+			}
+			
+	}
+
+	.description {
+		margin-bottom: 15px;
+	}
+}
+
+
+.pintereach-images {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+
+	.pintereach-images-1 {
+		width: 40vw;
+		height: 44vh;
+		margin: 3%;
+		padding: 20px;
+	}
+	.pintereach-images-2 {
+		height: 60vh;
+		width: 20vw;
+		margin: 3%;
+	}
+}
