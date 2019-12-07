@@ -9,17 +9,20 @@ import react from '../images/icons/icons8-react-100.png';
 import git from '../images/icons/icons8-git-100.png';
 import gitHub from '../images/icons/icons8-github-100.png';
 import vscode from '../images/icons/vsCode.ico';
-import css3 from '../images/icons/icons8-css3-100.png'
-import html5 from '../images/icons/icons8-html-5-100.png'
-import less from '../images/icons/lessIcon.png'
-import netlify from '../images/icons/netlify.png'
+import css3 from '../images/icons/icons8-css3-100.png';
+import html5 from '../images/icons/icons8-html-5-100.png';
+import less from '../images/icons/lessIcon.png';
+import netlify from '../images/icons/netlify.png';
+import website from '../images/icons/icons8-website-80.png';
 
 import './projects.scss';
 
 const Projects = () => {
 	return (
 		<div className="projects-home">
-			<div className="overall-background-projects">
+			<div className="subtitle">
+				<h1>Here are some of my projects...</h1>
+			</div>
 				<div className="route-project-card">
 					<div className="project-block-1">
 						<div className="project-name-img">
@@ -29,11 +32,11 @@ const Projects = () => {
 
 						<div className="links">
 							<a href="https://github.com/BW-Miracle-Messages/Front-End" target="_blank">
-								GitHub Repo
+								<img src={gitHub} alt="gitHub" />
 							</a>
-							<br />
+							{/* <br /> */}
 							<a href="https://buildweek-reunite.now.sh" target="_blank">
-								Deployed Site
+								<img src={website} alt="site" />
 							</a>
 						</div>
 					</div>
@@ -75,7 +78,7 @@ const Projects = () => {
 								href="https://github.com/irisjitomo/Sprint-Challenge-State-Management-Smurfs/tree/Iris-Jitomo"
 								target="_blank"
 							>
-								GitHub Repo
+								<img src={gitHub} alt="gitHub" />
 							</a>
 						</div>
 					</div>
@@ -89,7 +92,7 @@ const Projects = () => {
 							</p>
 						</div>
 						<div className="libraries">
-						<p>Frameworks and Libraries used:</p>
+							<p>Frameworks and Libraries used:</p>
 							<div className="libraries-icons">
 								<img src={react} alt="react" />
 								<img src={redux} alt="redux" />
@@ -118,11 +121,11 @@ const Projects = () => {
 						</div>
 						<div className="links">
 							<a href="https://github.com/build-week-pintereach-2/Marketing-Page" target="_blank">
-								GitHub Repo
+							<img src={gitHub} alt="gitHub" />
 							</a>
 							<br />
 							<a href="https://pintereach-buildweek-web22.netlify.com/index.html" target="_blank">
-								Deployed Site
+							<img src={website} alt="site" />
 							</a>
 						</div>
 					</div>
@@ -132,23 +135,22 @@ const Projects = () => {
 							<p>
 								Working with a team of React and Backend developers, I was in charge of the
 								marketing/landing page. I used pure HTML and CSS and used LESS preprocessor. For the
-								images I used google font, and unsplash for pictures. Overall very therapeutic designing a
-								landing page.
+								images I used google font, and unsplash for pictures. Overall very therapeutic designing
+								a landing page.
 							</p>
 						</div>
 						<div className="libraries">
-						<p>Frameworks and Libraries used:</p>
+							<p>Frameworks and Libraries used:</p>
 							<div className="libraries-icons">
 								<img src={html5} alt="html5" />
 								<img src={css3} alt="css3" />
 								<img src={less} alt="less" />
 								<img src={vscode} alt="vscode" />
-			<img src={netlify} alt="netlify" />
+								<img src={netlify} alt="netlify" />
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
 		</div>
 	);
 };

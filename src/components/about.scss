@@ -1,6 +1,6 @@
 .about-home {
 	margin: auto;
-	max-width: 1250px;
+	max-width: 75%;
 	padding: 20px;
 	border-radius: 50px;
 	padding: 9px;
@@ -14,33 +14,28 @@
 		margin: 2%;
 		align-content: center;
 		align-items: center;
-	background-color: lightgreen;
+		background-color: lightgreen;
 		.aboutMe {
 			margin: 5%;
-			// width: 50%;
-			// background-color: rgba(255, 255, 255, 0.15);
-			// backdrop-filter: blur(5px);
 			border-radius: 50px;
-            padding: 18px;
-            align-content: center;
-		align-items: center;
+			padding: 18px;
+			align-content: center;
+			align-items: center;
 			h1,
 			h2,
 			h3,
 			h4 {
-		color: rgb(27, 27, 27);
-	}
+				color: rgb(27, 27, 27);
+				font-size: 1rem;
+			}
 		}
 		.image-card {
 			width: 50%;
 			margin: 5%;
 			margin-top: 8%;
-            padding: 30px;
-            align-content: center;
-        align-items: center;
-        
-			// border: 2px solid black;
-
+			padding: 30px;
+			align-content: center;
+			align-items: center;
 			img {
 				width: 95%;
 				height: auto;
@@ -50,10 +45,9 @@
 	}
 
 	.skills-cards {
-		margin-top: 12%;
+		// margin-top: 12%;
 		display: flex;
 		justify-content: space-around;
-		// border: 1px solid black;
 		border-radius: 50px;
 		padding: 20px;
 		background: lightgrey;
@@ -61,5 +55,10 @@
 			width: 5%;
 			height: auto;
 		}
+	}
+
+	.subtitle {
+		display: flex;
+		margin-top: 7%;
 	}
 }

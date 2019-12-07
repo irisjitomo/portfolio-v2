@@ -1,0 +1,36 @@
+.home-contact {
+	margin: auto;
+	max-width: 65%;
+	padding: 20px;
+	background-color: lightsteelblue;
+  backdrop-filter: blur(5px);
+	border-radius: 50px;
+	padding: 9px;
+	text-align: center;
+	margin-top: 150px;
+    align-items: center;
+	.contact-block-2 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+.contact-cards {
+	margin-top: 0px;
+	margin-bottom: 50px;
+    padding: 20px;
+	border-radius: 50px;
+	background-color: rgba(248, 248, 248, 0.37);
+    width: 20%;
+}
+
+.contact-about-me-card {
+	h1,
+	h3,
+	h4 {
+		color: rgb(27, 27, 27);
+    }
+    img {
+        width: 25%;
+    }
+}

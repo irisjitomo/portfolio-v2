@@ -1,5 +1,4 @@
 import React from 'react';
-import profileBench from '../images/profile-bench.jpg';
 
 import css3 from '../images/icons/icons8-css3-100.png'
 import html5 from '../images/icons/icons8-html-5-100.png'
@@ -42,7 +41,9 @@ const About = () => {
 					</h3>
 				</div>
 			</div>
-
+			<div className="subtitle">
+				<h1>Skills:</h1>
+			</div>
 			<div className="skills-cards">
 			<img src={html5} alt="html5" />
 			<img src={js} alt="javascript" />

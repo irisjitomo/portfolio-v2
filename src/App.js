@@ -7,16 +7,9 @@ import Header from './components/header.js';
 import Footer from './components/footer.js';
 import Projects from './components/projects';
 import About from './components/about';
+import Contact from './components/contact';
 
 function App(props) {
-	function goToProjectsClick() {
-		// let history = useHistory
-		props.history.push('/projects');
-	}
-
-	function goToAboutMeClick() {
-		props.history.push('/about-me');
-	}
 
 	return (
 		<div className="App">
@@ -27,8 +20,8 @@ function App(props) {
 							<img src={profilePic} alt="profile picture" />
 						</div>
 						<div className="name">
-							<h1>Iris Jitomo</h1>
-							<h2>Full Stack Web Developer</h2>
+							<h2>Iris Jitomo</h2>
+							<h4>Full Stack Web Developer</h4>
 						</div>
 					</div>
 					<br />
@@ -36,9 +29,9 @@ function App(props) {
 					<div className="cards">
 
 						<div className="about-me-card">
-							<h1>Software Engineer</h1>
-							<h1>Computer Science</h1>
-							<h1>Fullstack Developer</h1>
+							<h3>Software Engineer</h3>
+							<h3>Computer Science</h3>
+							<h3>Fullstack Developer</h3>
 						</div>
 					</div>
 				</div>
@@ -49,6 +42,9 @@ function App(props) {
 					<div className="Projects">
 						<Projects />
 					</div>
+				<div className="Contact">
+					<Contact />
+				</div>
 			<Footer />
 		</div>
 	);
