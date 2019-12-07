@@ -1,14 +1,28 @@
+
+
 nav{
+    height: 20vh;
     display:flex;
-    justify-content: flex-end;;
+    justify-content: flex-start;;
     background-color: black; 
     border-bottom: 1px solid white;
+	background-image: url('../images/city-BW-upward.jpg');
+	background-size: cover;
 }
 
 .header-links {
     display:flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.name-container {
+    margin-left: 2%;
+}
+
+.header h1 {
+    color: white;
+    font-size: 2rem;
 }
 
 

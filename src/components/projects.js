@@ -4,6 +4,16 @@ import smurfsProject from '../images/smurfsRedux.PNG';
 import pintereachDesktop from '../images/pintereachDesktop.PNG';
 import pintereachMobile from '../images/pintereachMobile.PNG';
 
+import redux from '../images/icons/redux.png';
+import react from '../images/icons/icons8-react-100.png';
+import git from '../images/icons/icons8-git-100.png';
+import gitHub from '../images/icons/icons8-github-100.png';
+import vscode from '../images/icons/vsCode.ico';
+import css3 from '../images/icons/icons8-css3-100.png'
+import html5 from '../images/icons/icons8-html-5-100.png'
+import less from '../images/icons/lessIcon.png'
+import netlify from '../images/icons/netlify.png'
+
 import './projects.scss';
 
 const Projects = () => {
@@ -18,13 +28,12 @@ const Projects = () => {
 						</div>
 
 						<div className="links">
-							<p>GitHub Repo: </p>
 							<a href="https://github.com/BW-Miracle-Messages/Front-End" target="_blank">
-								https://github.com/BW-Miracle-Messages/Front-End
+								GitHub Repo
 							</a>
-							<p>Deployed Site: </p>
+							<br />
 							<a href="https://buildweek-reunite.now.sh" target="_blank">
-								https://buildweek-reunite.now.sh
+								Deployed Site
 							</a>
 						</div>
 					</div>
@@ -33,7 +42,7 @@ const Projects = () => {
 						<div className="description">
 							<p>
 								Working with a team of other React developers, I was the 'lead senior' developer. We
-								built as app to display information of Homeless people and where to find them and family
+								built an app to display information of Homeless people and where to find them and family
 								members can add their own family members for a new case. Volunteers can also register
 								and login in order to add, edit, delete cases. We also had a backend work with us. I
 								delegated tasks such as, the home page component which displays cases, login/signin
@@ -43,13 +52,14 @@ const Projects = () => {
 							</p>
 						</div>
 						<div className="libraries">
-							<ul>
-								<p>Frameworks and Libraries used:</p>
-								<li>React</li>
-								<li>Redux</li>
-								<li>Axios</li>
-								<li>React-Router-Dom</li>
-							</ul>
+							<p>Frameworks and Libraries used:</p>
+							<div className="libraries-icons">
+								<img src={react} alt="react" />
+								<img src={redux} alt="redux" />
+								<img src={git} alt="git" />
+								<img src={gitHub} alt="gitHub" />
+								<img src={vscode} alt="vscode" />
+							</div>
 						</div>
 					</div>
 				</div>
@@ -61,12 +71,11 @@ const Projects = () => {
 							<img src={smurfsProject} alt="Smurfs Redux Project" />
 						</div>
 						<div className="links">
-							<p>GitHub Repo: </p>
 							<a
-								href="https://github.com/irisjitomo/Sprint-Challenge-State-Management-Smurfs"
+								href="https://github.com/irisjitomo/Sprint-Challenge-State-Management-Smurfs/tree/Iris-Jitomo"
 								target="_blank"
 							>
-							https://github.com/irisjitomo/Sprint-Challenge-State-Management-Smurfs
+								GitHub Repo
 							</a>
 						</div>
 					</div>
@@ -80,12 +89,12 @@ const Projects = () => {
 							</p>
 						</div>
 						<div className="libraries">
-							<ul>
-								<p>Frameworks and Libraries used:</p>
-								<li>React</li>
-								<li>Redux</li>
-								<li>Thunk</li>
-							</ul>
+						<p>Frameworks and Libraries used:</p>
+							<div className="libraries-icons">
+								<img src={react} alt="react" />
+								<img src={redux} alt="redux" />
+								<img src={vscode} alt="vscode" />
+							</div>
 						</div>
 					</div>
 				</div>
@@ -108,13 +117,12 @@ const Projects = () => {
 							</div>
 						</div>
 						<div className="links">
-							<p>GitHub Repo: </p>
 							<a href="https://github.com/build-week-pintereach-2/Marketing-Page" target="_blank">
-								https://github.com/build-week-pintereach-2/Marketing-Page
+								GitHub Repo
 							</a>
-							<p>Deployed Site: </p>
+							<br />
 							<a href="https://pintereach-buildweek-web22.netlify.com/index.html" target="_blank">
-								https://pintereach-buildweek-web22.netlify.com/index.html
+								Deployed Site
 							</a>
 						</div>
 					</div>
@@ -123,36 +131,20 @@ const Projects = () => {
 						<div className="description">
 							<p>
 								Working with a team of React and Backend developers, I was in charge of the
-								marketing/landing page. I used pure HTML and CSS and used LESS pprepocessor. For the
-								images I used google font, and unplash for pictures. Overall very theraputic designing a
+								marketing/landing page. I used pure HTML and CSS and used LESS preprocessor. For the
+								images I used google font, and unsplash for pictures. Overall very therapeutic designing a
 								landing page.
 							</p>
 						</div>
 						<div className="libraries">
-							<ul>
-								<p>Languages and resources used</p>
-								<li>HTML5</li>
-								<li>CSS3</li>
-								<li>LESS</li>
-								<li>
-									HUMAAANS<br />
-									<a href="https://www.humaaans.com/" target="_blank">
-										( https://www.humaaans.com/ )
-									</a>
-								</li>
-								<li>
-									Google Fonts<br />
-									<a href="https://fonts.google.com" target="_blank">
-										( https://fonts.google.com )
-									</a>
-								</li>
-								<li>
-									Netlify<br />
-									<a href="https://www.netlify.com/" target="_blank">
-										( https://www.netlify.com/ )
-									</a>
-								</li>
-							</ul>
+						<p>Frameworks and Libraries used:</p>
+							<div className="libraries-icons">
+								<img src={html5} alt="html5" />
+								<img src={css3} alt="css3" />
+								<img src={less} alt="less" />
+								<img src={vscode} alt="vscode" />
+			<img src={netlify} alt="netlify" />
+							</div>
 						</div>
 					</div>
 				</div>

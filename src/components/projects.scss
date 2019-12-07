@@ -1,52 +1,107 @@
-
 .projects-home {
 	text-align: center;
-	background-image: url('../images/city-BW-upward.jpg');
-	background-size: cover;
 	font-size: 1.3rem;
 }
 
-.overall-background-projects {
-	background-color:black;
+.route-project-card {
+	background: #ffb3b3;
+	h1 {
+		// color: white;
+	}
+	.project-block-1 {
+		.links {
+			border: 1px solid white;
+		}
+	}
 
-}
-
-.route-project-card{
-    background-image: url('../images/city-upward-lampost.jpg');
-	background-size: cover;
+	.project-block-2 {
+		border: 1px solid white;
+		.libraries .libraries-icons {
+			display: flex;
+			justify-content: space-evenly;
+			// background: white;
+			margin-top: 7%;
+			margin-bottom: 5%;
+			border-radius: 5px;
+			border-top: 5px solid white;
+			border-bottom: 5px solid white;
+		}
+		img {
+			padding: 20px;
+			width: 10%;
+			height: auto;
+		}
+	}
 }
 
 .route-project-card-2 {
-	background-image: url('../images/city-neon.jpg');
-	background-size: cover;
+	background: #dddddd;
 	h1 {
-		color: white;
+		color: black;
+	}
+	.project-block-1 {
+		.links {
+			border: 1px solid white;
+		}
+	}
+
+	.project-block-2 {
+		border: 1px solid white;
+		.libraries .libraries-icons {
+			display: flex;
+			justify-content: space-evenly;
+			// background: white;
+			margin-top: 7%;
+			margin-bottom: 5%;
+			border-radius: 5px;
+			border-top: 5px solid white;
+			border-bottom: 5px solid white;
+		}
+		img {
+			padding: 20px;
+			width: 10%;
+			height: auto;
+		}
 	}
 }
 
 .route-project-card-3 {
-	background-image: url('../images/city-distance.jpg');
-	background-size: cover;
+	background: #ffccff;
 	h1 {
-		color: white;
+		color: black;
 	}
-	.project-block-2 .libraries li{
-		a {
-			color: white;
-			text-decoration: none;
-			// display: flex;
+	.project-block-1 {
+		.links {
+			border: 1px solid white;
 		}
-		a:hover {
-			color:#00A0C6;
 	}
-}
+	
+	.project-block-2 {
+		border: 1px solid white;
+		.libraries .libraries-icons {
+			display: flex;
+			justify-content: space-evenly;
+			// background: white;
+			margin-top: 7%;
+			margin-bottom: 5%;
+			border-radius: 5px;
+			border-top: 5px solid white;
+			border-bottom: 5px solid white;
+		}
+		img {
+			padding: 20px;
+			width: 10%;
+			height: auto;
+		}
+	}
 }
 
-.route-project-card, .route-project-card-2, .route-project-card-3 {
+.route-project-card,
+.route-project-card-2,
+.route-project-card-3 {
 	width: 80%;
 	display: flex;
 	margin: 10%;
-	border: 1px solid black;
 	border-radius: 25px;
 	align-items: center;
 
@@ -68,29 +123,30 @@
 		display: flex;
 		flex-direction: column;
 		margin: 30px;
-        width: 50%;
-        
+		width: 50%;
 
 		.links {
 			align-self: flex-start;
-            margin: 15px;
-            padding:2.5%;
-            border-radius: 30px;
-            background-color: rgba(255, 255, 255, 0.15);
-	        backdrop-filter: blur(5px);
+			margin: 15px;
+			padding: 2.5%;
+			border-radius: 30px;
+			background-color: rgba(255, 255, 255, 0.15);
+			backdrop-filter: blur(5px);
 			p {
-                display: flex;
-                color: white;
-            }
-            a {
+				display: flex;
+				color: white;
+				color: black;
+			}
+			a {
 				color: white;
 				text-decoration: none;
 				display: flex;
+				color: black;
 			}
 			a:hover {
-				color:#00A0C6; 
-     			text-decoration:none; 
-     			cursor:pointer;
+				color: #00a0c6;
+				text-decoration: none;
+				cursor: pointer;
 			}
 		}
 	}
@@ -101,24 +157,24 @@
 		// border: 1px solid black;
 		width: 40%;
 		border-radius: 50px;
-        padding: 20px;
-        background-color: rgba(255, 255, 255, 0.15);
-            backdrop-filter: blur(5px);
-            p {
-                display: flex;
-                color: white;
-            }
-            li {
-				color: white;				
-			}
-			
+		padding: 20px;
+		background-color: rgba(255, 255, 255, 0.15);
+		backdrop-filter: blur(5px);
+		p {
+			display: flex;
+			color: white;
+			color: black;
+		}
+		li {
+			color: white;
+			color: black;
+		}
 	}
 
 	.description {
 		margin-bottom: 15px;
 	}
 }
-
 
 .pintereach-images {
 	display: flex;

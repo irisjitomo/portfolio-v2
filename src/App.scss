@@ -2,28 +2,27 @@
 	text-align: center;
 	// max-height: 1500px;
 	
-    background-color:black;
+    background-color:white;
 }
 
 .home {
 	margin: auto;
 	max-width: 1250px;
-	max-height: 900px;
+	// max-height: 900px;
 	padding: 20px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
 	// background: black;
-	background-color: rgba(255, 255, 255, 0.15);
+	background-color: lightsteelblue;
   backdrop-filter: blur(5px);
 	// border: 2px solid black;
 	border-radius: 50px;
 	padding: 9px;
 	text-align: center;
 	margin-top: 150px;
+	align-items: center;
 	
-	background-image: url('./images/city-BW-upward.jpg');
-	background-size: cover;
 }
 
 .profile-card {
@@ -43,20 +42,17 @@
 
 .name {
 	margin-top: 10%;
-	border-radius: 10px;
+	border-radius: 50px;
+	border: 1px solid white;
 	background-color: rgba(248, 248, 248, 0.37);
   backdrop-filter: blur(5px);
+  padding: 2px;
 	h1,
 	h2,
 	h3,
 	h4 {
-		color: rgb(255, 255, 255);
+		color: black;
 		// color: rgb(27, 27, 27);
-		text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
 	}
 }
 
@@ -73,6 +69,7 @@
 	border-radius: 50px;
 	// background-color: rgba(0, 157, 248, 0.15);
 	background-color: rgba(248, 248, 248, 0.37);
+	border: 1px solid white;
 	backdrop-filter: blur(5px);
 	h1,
 	h3,
@@ -113,18 +110,12 @@
 	border-radius: 50px;
 	// background-color: rgba(0, 157, 248, 0.15);
 	background-color: rgba(248, 248, 248, 0.37);
+	border: 1px solid white;
 	backdrop-filter: blur(5px);
 	h1,
 	h3,
 	h4 {
 		color: rgb(27, 27, 27);
-		color: rgb(255, 255, 255);
-		// color: rgb(27, 27, 27);
-		text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
 	}
 	.button {
 		color: #fff !important;
