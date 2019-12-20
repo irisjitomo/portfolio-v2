@@ -1,10 +1,11 @@
 import React from 'react';
 import './header.scss'
-
+import SpotifyPlayer from 'react-spotify-player';
 import { Link } from 'react-scroll'
 
 
 const Header = () => {
+	
     return (
         <header>
 				<nav className="nav" id="navbar">

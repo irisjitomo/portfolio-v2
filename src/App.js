@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
 import profilePic from './images/profile.png';
-import { Route, Switch, withRouter, } from 'react-router-dom';
+import { Route, Switch, withRouter } from 'react-router-dom';
 
 import Header from './components/header.js';
 import Footer from './components/footer.js';
@@ -11,11 +11,13 @@ import Contact from './components/contact';
 import TopImage from './components/topImage';
 
 function App(props) {
+
+
 	return (
 		<div className="App">
 			<Header />
 			<TopImage />
-{/* 			
+			{/* 			
 			<div className="home">
 				<div className="profile-card">
 					<div className="image">

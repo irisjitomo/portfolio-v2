@@ -7,6 +7,12 @@
 	z-index: 1000;
 	box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
   }
+
+  h1 {
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-size: 1.7rem;
+  }
   
   .nav-logo {
 	height: 60px;
@@ -30,10 +36,34 @@
   .nav-item {
 	display: inline;
 	margin-left: 2rem;
-	color: #333;
+    // color: #333;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
   }
   
   .nav-item:hover {
-	color: black;
+    color: #333;
 	cursor: pointer;
+  }
+
+  @media (max-width: 500px) {
+    .nav{
+        margin: auto;
+        height:auto;
+    }
+    .nav .nav-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-items {
+        margin-right: 25%;
+    }
+  }
+
+  @media (max-width: 350px) {
+      .nav{
+          max-width: 350px;
+        margin: auto;
+        height:auto;
+      }
   }
