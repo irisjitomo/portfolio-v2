@@ -1,17 +1,25 @@
 .home-contact {
-	margin: auto;
-	max-width: 65%;
+	// margin: auto;
+	// max-width: 65%;
 	padding: 20px;
-	background-color: lightsteelblue;
-  backdrop-filter: blur(5px);
-	border-radius: 50px;
+	background-color: black;
 	padding: 9px;
 	text-align: center;
-	margin-top: 150px;
-    align-items: center;
+	margin-top: 100px;
+	align-items: center;
+	.contact-block-1 {
+		.title  h1{
+			color: white;
+			font-size: 3rem;
+			letter-spacing: 10px;
+			margin-top: 70px;
+		}
+	}
 	.contact-block-2 {
         display: flex;
-        justify-content: space-evenly;
+		justify-content: space-evenly;
+		margin-top: 20px;
+		margin-bottom: 30px;
     }
 }
 
@@ -19,18 +27,27 @@
 	margin-top: 0px;
 	margin-bottom: 50px;
     padding: 20px;
-	border-radius: 50px;
-	background-color: rgba(248, 248, 248, 0.37);
+	border-radius: 15px;
+	background-color: white;
     width: 20%;
 }
 
 .contact-about-me-card {
+	a {
+		text-decoration: none;
+	}
 	h1,
 	h3,
 	h4 {
-		color: rgb(27, 27, 27);
+		color: black;
+		font-size: 1.1rem;
+		letter-spacing: 2px;
+		text-transform: uppercase;
     }
     img {
-        width: 25%;
+		width: 22.5%;
+		filter: black;
+		-webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1)
     }
 }

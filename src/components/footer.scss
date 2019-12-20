@@ -1,11 +1,10 @@
 footer {
-    margin-top:150px;
     margin-bottom: 0;
     display:flex;
     justify-content: center;
-    background: lightgreen;
+    // background: lightgreen;
     height: auto;
-    border-top: 1px solid white;
+    // border-top: 1px solid white;
     .footer-info{
         display: flex;
         flex-direction: column;
@@ -15,19 +14,14 @@ footer {
             p {
                 color: #4d4d33;
                 align-self: flex-start;
-                font-size: 1rem;
-                padding: 7px;
-                border-radius: 7px;
-                margin-left: 15px;
+                font-size: 1.5rem;
+                text-transform: uppercase;
+                letter-spacing: 1px;
             }
         }
-        .contact-cards-info{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            img {
-                width: 50%;
-            }
+        .miscellaneous a {
+            text-decoration: none;
+            color: #4d4d33;
         }
     }
 

@@ -21,7 +21,7 @@ const Projects = () => {
 	return (
 		<div className="projects-home">
 			<div className="subtitle">
-				<h1>Here are some of my projects...</h1>
+				<h1>PROJECTS</h1>
 			</div>
 				<div className="route-project-card">
 					<div className="project-block-1">
@@ -32,11 +32,13 @@ const Projects = () => {
 
 						<div className="links">
 							<a href="https://github.com/BW-Miracle-Messages/Front-End" target="_blank">
-								<img src={gitHub} alt="gitHub" />
+								{/* <img src={gitHub} alt="gitHub" /> */}
+								GITHUB
 							</a>
 							{/* <br /> */}
 							<a href="https://buildweek-reunite.now.sh" target="_blank">
-								<img src={website} alt="site" />
+								{/* <img src={website} alt="site" /> */}
+								LINK
 							</a>
 						</div>
 					</div>
@@ -45,11 +47,8 @@ const Projects = () => {
 						<div className="description">
 							<p>
 								Working with a team of other React developers, I was the 'lead senior' developer. We
-								built an app to display information of Homeless people and where to find them and family
-								members can add their own family members for a new case. Volunteers can also register
-								and login in order to add, edit, delete cases. We also had a backend work with us. I
-								delegated tasks such as, the home page component which displays cases, login/signin
-								component to the other React Devs. I was in charge of various CRUD/axios requests. I
+								built an app to display information of Homeless people. Volunteers can register
+								and login in order to add, edit, delete cases. I was in charge of various CRUD/axios requests. I
 								took care of the Edit/Delete Cases Component. Added functionality to Login and Register
 								components with Authorization tokens.
 							</p>
@@ -67,7 +66,7 @@ const Projects = () => {
 					</div>
 				</div>
 
-				<div className="route-project-card-2">
+				<div className="route-project-card">
 					<div className="project-block-1">
 						<div className="project-name-img">
 							<h1>Smurfs Form with Redux</h1>
@@ -78,7 +77,9 @@ const Projects = () => {
 								href="https://github.com/irisjitomo/Sprint-Challenge-State-Management-Smurfs/tree/Iris-Jitomo"
 								target="_blank"
 							>
-								<img src={gitHub} alt="gitHub" />
+								{/* <img src={gitHub} alt="gitHub" /> */}
+								
+								GITHUB
 							</a>
 						</div>
 					</div>
@@ -102,7 +103,7 @@ const Projects = () => {
 					</div>
 				</div>
 
-				<div className="route-project-card-3">
+				<div className="route-project-card">
 					<div className="project-block-1">
 						<div className="project-name-img">
 							<h1>Pintereach: Landing Page/About Us Page</h1>
@@ -112,20 +113,23 @@ const Projects = () => {
 									alt="pintereach desktop landing page"
 									className="pintereach-images-1"
 								/>
-								<img
+								{/* <img
 									src={pintereachMobile}
 									alt="pintereach mobile landing page"
 									className="pintereach-images-2"
-								/>
+								/> */}
 							</div>
 						</div>
 						<div className="links">
 							<a href="https://github.com/build-week-pintereach-2/Marketing-Page" target="_blank">
-							<img src={gitHub} alt="gitHub" />
+							{/* <img src={gitHub} alt="gitHub" /> */}
+							
+							GITHUB
 							</a>
 							<br />
 							<a href="https://pintereach-buildweek-web22.netlify.com/index.html" target="_blank">
-							<img src={website} alt="site" />
+							{/* <img src={website} alt="site" /> */}
+							LINK
 							</a>
 						</div>
 					</div>

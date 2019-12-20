@@ -2,15 +2,15 @@ import React from 'react';
 import './contact.scss';
 
 import gitHub from '../images/icons/icons8-github-100.png';
-import email from '../images/icons/email.png';
-import linkedIn from '../images/icons/linkedin.png';
+import email from '../images/icons/email-blk.png';
+import linkedIn from '../images/icons/linkedIn-blk.jpg';
 
 const Contact = () => {
 	return (
 		<div className="home-contact">
 			<div className="contact-block-1">
 				<div className="title">
-					<h1>Let's Get In Touch</h1>
+					<h1>CONTACT</h1>
 				</div>
 			</div>
 			<br />

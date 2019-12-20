@@ -27,24 +27,24 @@ const About = () => {
 					<div className="aboutMeCards">
 						<div className="aboutMe">
 							<h1>About Me:</h1>
-							<h3>
+							<h4>
 								My name is Iris Jitomo. I attended Lambda School's FullStack Web Development Program. I
 								became a Team Lead for part-time students for cohorts below me. I have knowledge in Web
 								Development/Coding in both front-end and back-end and knowledge in Computer Science. I'm
 								in the process of adding more to my skill-set especially React Libraries. I'm always
 								willing to learn and to put into practice whatever is required of me.
-							</h3>
+							</h4>
 						</div>
 						<div className="aboutMe">
 							<h1>Why Tech? Why Web Development?</h1>
-							<h3>
+							<h4>
 								This industry is growing. I remember before attending Lambda School, there was this new
 								craze or trend on Youtube which was coding/web development/computer science. Lots of
 								self taught developers making videos about them being successful in their careers. I
 								wanted to be like them, I want to be in this industry. I self taught myself beginner
 								code but I wanted to know more to be hireable, to be able to fit in this growing
 								industry.
-							</h3>
+							</h4>
 						</div>
 					</div>
 				</div>
