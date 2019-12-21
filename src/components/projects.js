@@ -4,16 +4,21 @@ import smurfsProject from '../images/smurfsRedux.PNG';
 import pintereachDesktop from '../images/pintereachDesktop.PNG';
 import pintereachMobile from '../images/pintereachMobile.PNG';
 
-import redux from '../images/icons/redux.png';
-import react from '../images/icons/icons8-react-100.png';
-import git from '../images/icons/icons8-git-100.png';
-import gitHub from '../images/icons/icons8-github-100.png';
-import vscode from '../images/icons/vsCode.ico';
-import css3 from '../images/icons/icons8-css3-100.png';
-import html5 from '../images/icons/icons8-html-5-100.png';
-import less from '../images/icons/lessIcon.png';
-import netlify from '../images/icons/netlify.png';
-import website from '../images/icons/icons8-website-80.png';
+import css3 from '../images/icons/css3Black.svg'; //
+import html5 from '../images/icons/html5Black.svg'; // 
+import js from '../images/icons/javascriptBlack.svg'; // 
+import nodejs from '../images/icons/nodeWhite.svg'; // 
+import react from '../images/icons/reactBlack.svg'; // 
+// import reactNative from '../images/icons/icons8-react-native-100.png';
+import git from '../images/icons/gitBlack.svg'; // 
+import gitHub from '../images/icons/githubBlack.svg'; //
+import redux from '../images/icons/reduxBlack.svg'; //
+// import insom from '../images/icons/insomnia.ico';
+import vscode from '../images/icons/vscodeBlack.svg';
+import vscodeWhite from '../images/icons/vscodeWhite.svg'
+import lessBlack from '../images/icons/lessBlack.svg'
+import netlify from '../images/icons/netlify.svg';
+import profilePic from '../images/profile.png';
 
 import './projects.scss';
 
@@ -148,7 +153,7 @@ const Projects = () => {
 							<div className="libraries-icons">
 								<img src={html5} alt="html5" />
 								<img src={css3} alt="css3" />
-								<img src={less} alt="less" />
+								<img src={lessBlack} alt="less" />
 								<img src={vscode} alt="vscode" />
 								<img src={netlify} alt="netlify" />
 							</div>
