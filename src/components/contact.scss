@@ -27,7 +27,7 @@
 	margin-top: 0px;
 	margin-bottom: 50px;
     padding: 20px;
-	border-radius: 15px;
+	// border-radius: 15px;
 	background-color: white;
     width: 20%;
 }
@@ -68,5 +68,14 @@
 				color: white;
 			}
 		}
+	}
+}
+
+@media (max-width: 320px) {
+	.home-contact {
+		max-width: 320px;
+	}
+	.contact-cards .contact-about-me-card h3{
+		font-size: .75rem;
 	}
 }

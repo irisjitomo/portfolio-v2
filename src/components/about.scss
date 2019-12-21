@@ -92,6 +92,7 @@
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: space-around;
+			border-top: 3px solid black;
 			img {
 				width: 15%;
 			}
@@ -100,10 +101,13 @@
 }
 
 @media (max-width: 325px) {
+	.about-home {
+		max-width: 325px;
+	}
 	.skillsTitle {
-		border-bottom: solid 2px black;
+		border-bottom:3px solid black;
 	}
 	.skills-cards {
-		border-top: 2px solid black;
+		border-top: 3px solid black;
 	}
 }

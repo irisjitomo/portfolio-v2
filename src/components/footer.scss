@@ -2,9 +2,7 @@ footer {
     margin-bottom: 0;
     display:flex;
     justify-content: center;
-    // background: lightgreen;
     height: auto;
-    // border-top: 1px solid white;
     .footer-info{
         display: flex;
         flex-direction: column;
@@ -25,4 +23,15 @@ footer {
         }
     }
 
+}
+
+@media (max-width: 500px) {
+    .footer-info{
+        max-width: 500px;
+        .footer-contact-card {
+            p {
+                 letter-spacing: .2px;
+            }
+        }
+    }
 }
