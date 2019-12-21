@@ -154,6 +154,9 @@
 			.project-block-1 {
 				width: 100%;
 				margin-bottom: 0;
+				.links a {
+					border-bottom:1px solid black;
+				}
 			}
 			.project-block-2 {
 				width: 100%;
@@ -161,6 +164,9 @@
 				.description p {
 					letter-spacing: 1.2px;
 					font-size: 0.95rem;
+				}
+				.libraries-icons{
+					border-bottom: solid black 1px;
 				}
 			}
 		}

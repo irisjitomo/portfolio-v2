@@ -51,3 +51,22 @@
   filter: grayscale(1)
     }
 }
+
+@media (max-width: 500px) {
+	.home-contact{
+		max-width: 500px;
+		.contact-cards{
+			background-color: black;
+			width: 33%;
+			.contact-about-me-card{
+				width: 33%;
+			}
+			img {
+				display: none;
+			}
+			h3 {
+				color: white;
+			}
+		}
+	}
+}
