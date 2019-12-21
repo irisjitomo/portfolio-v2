@@ -1,20 +1,20 @@
 import React from 'react';
 
-import css3 from '../images/icons/icons8-css3-100.png';
-import html5 from '../images/icons/html5.svg';
-import js from '../images/icons/icons8-javascript-100.png';
-import nodejs from '../images/icons/icons8-nodejs-100.png';
-import react from '../images/icons/icons8-react-100.png';
-import reactNative from '../images/icons/icons8-react-native-100.png';
-import git from '../images/icons/icons8-git-100.png';
-import gitHub from '../images/icons/icons8-github-100.png';
-import redux from '../images/icons/redux.png';
-import insom from '../images/icons/insomnia.ico';
-import vscode from '../images/icons/vsCode.ico';
-import less from '../images/icons/lessIcon.png';
-import netlify from '../images/icons/netlify.png';
+import css3 from '../images/icons/css3White.svg'; //
+import html5 from '../images/icons/html5White.svg'; // 
+import js from '../images/icons/javascriptWhite.svg'; // 
+import nodejs from '../images/icons/nodeWhite.svg'; // 
+import react from '../images/icons/reactWhite.svg'; // 
+// import reactNative from '../images/icons/icons8-react-native-100.png';
+import git from '../images/icons/gitWhite.svg'; // 
+import githubWhite from '../images/icons/githubWhite.svg'; //
+import redux from '../images/icons/reduxWhite.svg'; //
+// import insom from '../images/icons/insomnia.ico';
+import vscode from '../images/icons/vscodeWhite.svg';
+import vscodeWhite from '../images/icons/vscodeWhite.svg'
+import less from '../images/icons/lessWhite.svg';
+import netlify from '../images/icons/netlifyWhite.svg';
 import profilePic from '../images/profile.png';
-import bitrise from '../images/icons/bitrise.svg'
 
 import './about.scss';
 const About = () => {
@@ -58,15 +58,13 @@ const About = () => {
 					<img src={css3} alt="css3" />
 					<img src={less} alt="less-compiler" />
 					<img src={nodejs} alt="nodeJS" />
-					<img src={reactNative} alt="reactNative" />
+					{/* <img src={reactNative} alt="reactNative" /> */}
 					<img src={react} alt="react" />
 					<img src={redux} alt="redux" />
 					<img src={git} alt="git" />
-					{/* <img src={gitHub} alt="gitHub" /> */}
-					<img src={insom} alt="insomnia" />
+					<img src={githubWhite} alt="gitHub" />
 					<img src={vscode} alt="vscode" />
 					<img src={netlify} alt="netlify" />
-					<img src={bitrise} />
 				</div>
 			</div>
 		</div>
