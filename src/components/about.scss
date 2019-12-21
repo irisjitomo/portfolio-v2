@@ -100,7 +100,7 @@
 
 @media (max-width: 500px) {
 	.about-home {
-		max-width: 500px;
+		// max-width: 500px;
 		.aboutMeCard {
 			display: flex;
 			flex-direction: column;
@@ -117,10 +117,13 @@
 			flex-wrap: wrap;
 			justify-content: space-around;
 			border-top: 3px solid black;
-			height:10%;
+			// height:30vh;
+			// width: 100%;
+			height: auto;
 			// display: none;
 			img {
-				width: 4.5%;
+				width: 10%;
+				height: auto;
 			}
 		}
 	}
@@ -135,6 +138,6 @@
 	}
 	.skills-cards {
 		border-top: 3px solid black;
-		height:10%;
+		height:auto;
 	}
 }
