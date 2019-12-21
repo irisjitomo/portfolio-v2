@@ -30,6 +30,28 @@
 	}
 }
 
+@media (max-width: 1024px) {
+	.topImage {
+		height: 40vh;
+	}
+	.title .h1 h1 {
+		letter-spacing: 1.5px;
+	}
+}
+
+@media (max-width: 768px) {
+	.topImage{
+		height: 50vh;
+		.title {
+			width: 60%;
+			padding: 20px;
+		}
+		.h1 h1 {
+			font-size: 2.0rem;
+		}
+	}
+}
+
 @media (max-width: 500px) {
 	.topImage {
 		height: 30vh;
