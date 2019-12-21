@@ -159,15 +159,21 @@
 			display: flex;
 			flex-direction: column;
 			.project-block-1 {
+				
+		max-width: 500px;
 				width: 100%;
 				margin-bottom: 0;
+				img {
+					width: 80%;
+				}
 				.links a {
 					border-bottom:1px solid black;
 				}
 			}
 			.project-block-2 {
-				width: 100%;
-				margin-top: 0px;
+				width: 92%;
+				// margin-left: 1%;
+				// text-align: left;
 				.description p {
 					letter-spacing: 1.2px;
 					font-size: 0.95rem;
