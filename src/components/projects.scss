@@ -81,12 +81,11 @@
 
 		.links {
 			margin: 15px;
-			padding: 1%;
-			border-radius: 30px;
+			// padding: 1%;
+			// border-radius: 30px;
 			background-color: rgba(255, 255, 255, 0.15);
 			backdrop-filter: blur(5px);
 			align-items: center;
-			width: 50%;
 			a {
 				text-decoration: none;
 				color: black;
@@ -140,5 +139,34 @@
 		height: 60vh;
 		width: 20vw;
 		margin: 3%;
+	}
+}
+
+@media (max-width: 500px) {
+	.projects-home {
+		max-width: 500px;
+		.subtitle {
+			font-size: 1.3rem;
+		}
+		.route-project-card {
+			display: flex;
+			flex-direction: column;
+			.project-block-1 {
+				width: 100%;
+				margin-bottom: 0;
+			}
+			.project-block-2 {
+				width: 100%;
+				margin-top: 0px;
+				.description p {
+					letter-spacing: 1.2px;
+					font-size: 0.95rem;
+				}
+			}
+		}
+		.pintereach-images-1 {
+			width: 100%;
+			height: auto;
+		}
 	}
 }
