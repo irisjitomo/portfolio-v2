@@ -7,11 +7,12 @@
 	z-index: 1000;
 	box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
   }
-
-  h1 {
+  .nav-title {
       text-transform: uppercase;
       letter-spacing: 3px;
       font-size: 1.7rem;
+      // margin-top: 10%;
+      // border-bottom: solid black 2px;
   }
   
   .nav-logo {
@@ -36,7 +37,6 @@
   .nav-item {
 	display: inline;
 	margin-left: 2rem;
-    // color: #333;
     letter-spacing: 1px;
     font-size: 1.1rem;
   }
@@ -58,12 +58,27 @@
     .nav-items {
         margin-right: 25%;
     }
+    .nav-title {
+      margin-top: 10%;
+      border-bottom: solid black 2px;
+  }
   }
 
-  @media (max-width: 350px) {
+  @media (max-width: 325px) {
       .nav{
-          max-width: 350px;
+        max-width: 325px;
         margin: auto;
         height:auto;
       }
+
+      .nav-items {
+        margin-right: 30%;
+    }
+
+  .nav-item {
+    display: inline;
+    margin-left: 2rem;
+      letter-spacing: 1.5px;
+      font-size: 0.75rem;
+    }
   }

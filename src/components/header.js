@@ -10,7 +10,7 @@ const Header = () => {
         <header>
 				<nav className="nav" id="navbar">
 				<div className="nav-content">
-					<h1>
+					<h1 className="nav-title">
 						Iris Jitomo
 					</h1>
 					<ul className="nav-items">

@@ -1,39 +1,50 @@
 .topImage {
 	background-image: url('../images/city-BW-upward.jpg');
 	background-size: cover;
-	// max-width: 1250px;
 	height: 90vh;
 	padding: 20px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-    flex-direction: column;
-    font-family: 'Lato', sans-serif;
+	flex-direction: column;
+	font-family: 'Lato', sans-serif;
 	.title {
-		// border: 1px solid white;
 		background-color: rgba(255, 255, 255, 0.2);
 		backdrop-filter: blur(10px);
-        width: 50%;
-        
-        h2{
-            font-size: 2rem;
-            color: white;
-            margin: 10%;
+		width: 50%;
+
+		h2 {
+			font-size: 2rem;
+			color: white;
+			margin: 10%;
 			letter-spacing: 10px;
-        }
-        .h1 {
-            // border: solid white 1px;
-            h1{
-            font-size: 3rem;
-            color: white;
-			letter-spacing: 10px;
-        }
-    }
+		}
+		.h1 {
+			// border: solid white 1px;
+			h1 {
+				font-size: 3rem;
+				color: white;
+				letter-spacing: 10px;
+			}
+		}
 	}
 }
 
 @media (max-width: 600px) {
-    .topImage {
-        // margin-top: 10px;
-    }
+	.topImage {
+		height: 30vh;
+		.title {
+			width: 50%;
+			height: auto;
+
+			.h1 h1 {
+                font-size: 1rem;
+                letter-spacing: 3.5px;
+            }
+            h2{
+                font-size: 0.5rem;
+                letter-spacing: 2.5px;
+            }
+		}
+	}
 }
