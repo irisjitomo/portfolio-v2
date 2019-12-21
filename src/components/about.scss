@@ -1,7 +1,6 @@
 .about-home {
-	border-radius: 50px;
 	// padding: 9px;
-	text-align: center;
+	// text-align: center;
 
 	.aboutMeCard {
 		display: flex;
@@ -71,5 +70,40 @@
 			width: 4.5%;
 			height: auto;
 		}
+	}
+}
+
+
+@media (max-width: 500px) {
+	.about-home {
+		max-width: 500px;
+		.aboutMeCard {
+			display: flex;
+			flex-direction: column;
+			.image {
+				width: 100%;
+				margin-left: 35%;
+				img {
+					width: 75%;
+				}
+			}
+		}
+		.skills-cards {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			img {
+				width: 15%;
+			}
+		}
+	}
+}
+
+@media (max-width: 325px) {
+	.skillsTitle {
+		border-bottom: solid 2px black;
+	}
+	.skills-cards {
+		border-top: 2px solid black;
 	}
 }
