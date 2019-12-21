@@ -86,6 +86,17 @@
 		color: rgb(27, 27, 27);
 	}
 }
+@media (max-width: 1024px) {
+	.App {
+		max-width: 1024px;
+	}
+}
+
+@media (max-width: 768px ) {
+	.App{
+		max-width: 768px;
+	}
+}
 
 @media (max-width: 500px) {
 	.App {
