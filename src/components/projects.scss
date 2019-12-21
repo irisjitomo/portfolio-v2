@@ -130,8 +130,9 @@
 	align-items: center;
 
 	.pintereach-images-1 {
-		width: 40vw;
-		height: 44vh;
+		width: 100%;
+		height: auto;
+		// height: 44vh;
 		margin: 3%;
 		padding: 20px;
 	}
@@ -139,6 +140,12 @@
 		height: 60vh;
 		width: 20vw;
 		margin: 3%;
+	}
+}
+
+@media (max-width: 1024px){
+	.pintereach-images img{
+		width: 50%;
 	}
 }
 
