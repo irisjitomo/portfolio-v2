@@ -1,7 +1,7 @@
 import React from 'react';
 
 import css3 from '../images/icons/icons8-css3-100.png';
-import html5 from '../images/icons/icons8-html-5-100.png';
+import html5 from '../images/icons/html5.svg';
 import js from '../images/icons/icons8-javascript-100.png';
 import nodejs from '../images/icons/icons8-nodejs-100.png';
 import react from '../images/icons/icons8-react-100.png';
@@ -14,6 +14,7 @@ import vscode from '../images/icons/vsCode.ico';
 import less from '../images/icons/lessIcon.png';
 import netlify from '../images/icons/netlify.png';
 import profilePic from '../images/profile.png';
+import bitrise from '../images/icons/bitrise.svg'
 
 import './about.scss';
 const About = () => {
@@ -65,6 +66,7 @@ const About = () => {
 					<img src={insom} alt="insomnia" />
 					<img src={vscode} alt="vscode" />
 					<img src={netlify} alt="netlify" />
+					<img src={bitrise} />
 				</div>
 			</div>
 		</div>
