@@ -35,3 +35,12 @@ footer {
         }
     }
 }
+
+@media (max-width: 325px) {
+    .footer-contact-card{
+        p {
+            // display: none?s;
+            
+        }
+    }
+}
