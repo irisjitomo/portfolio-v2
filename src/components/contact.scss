@@ -29,7 +29,7 @@
     padding: 20px;
 	// border-radius: 15px;
 	background-color: white;
-    width: 20%;
+    width: 15%;
 }
 
 .contact-about-me-card {
@@ -58,6 +58,8 @@
 		.contact-cards{
 			background-color: black;
 			width: 33%;
+			display: flex;
+			justify-content: space-between;;
 			.contact-about-me-card{
 				width: 33%;
 			}
