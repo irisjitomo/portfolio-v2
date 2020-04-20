@@ -29,22 +29,18 @@ const About = () => {
 						<div className="aboutMe">
 							<h1>About Me:</h1>
 							<h4>
-								My name is Iris Jitomo. I attended Lambda School's FullStack Web Development Program. I
-								became a Team Lead for part-time students for cohorts below me. I have knowledge in Web
-								Development/Coding in both front-end and back-end and knowledge in Computer Science. I'm
-								in the process of adding more to my skill-set especially React Libraries. I'm always
-								willing to learn and to put into practice whatever is required of me.
+							My name is Iris Jitomo, I'm a Full Stack Web Developer that recently graduated from Lambda School's intensive 9-month Full Stack Web Development Program. 
+							In addition to building over 50+ fully-functional web applications at Lambda and completing over 960 hours of code, 
+							I also served as a Teaching Assistant for part-time Lambda School students. I have knowledge in Web Development in both front-end and back-end and additionally, Computer Science fundamentals. I'm in the process of adding more to my skill-set, especially React Libraries. I'm always willing to learn and to put into practice whatever is required of me.
 							</h4>
 						</div>
 						<div className="aboutMe">
 							<h1>Why Tech? Why Web Development?</h1>
 							<h4>
-								This industry is growing. I remember before attending Lambda School, there was this new
-								craze or trend on Youtube which was coding/web development/computer science. Lots of
-								self taught developers making videos about them being successful in their careers. I
-								wanted to be like them, I want to be in this industry. I self taught myself beginner
-								code but I wanted to know more to be hireable, to be able to fit in this growing
-								industry.
+								This industry is growing. I remember discovering the field through the Youtube coders, web developers, 
+								and computer scientists sharing their process and what made them successful in their careers. 
+								I wanted to be like them and create amazing products too. I self taught myself beginner HTML/CSS and Python 
+								and enrolled in Lambda in July 2019 to learn even more skills to be able to contribute to this growing industry.
 							</h4>
 						</div>
 					</div>
