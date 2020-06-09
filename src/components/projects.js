@@ -3,6 +3,7 @@ import Reunitr from '../images/reunitr.PNG';
 import smurfsProject from '../images/smurfsRedux.PNG';
 import pintereachDesktop from '../images/pintereachDesktop.PNG';
 import pintereachMobile from '../images/pintereachMobile.PNG';
+import keyCons from '../images/keyCons.PNG';
 
 import css3 from '../images/icons/css3Black.svg'; //
 import html5 from '../images/icons/html5Black.svg'; //
@@ -28,6 +29,47 @@ const Projects = () => {
 			<div className="subtitle">
 				<h1>PROJECTS</h1>
 			</div>
+
+			<div className="route-project-card">
+				<div className="project-block-1">
+					<div className="project-name-img">
+						<h1>Key Conservation - App</h1>
+						<img src={keyCons} alt="Key Conservation - App" />
+					</div>
+					<div className="links">
+						<a href="https://github.com/Lambda-School-Labs/key-conservation-mobile" target="_blank">
+							{/* <img src={gitHub} alt="gitHub" /> */}
+							GITHUB
+						</a>
+						<br />
+						<a href="https://www.keyconservation.org/" target="_blank">
+							{/* <img src={website} alt="site" /> */}
+							LINK
+						</a>
+					</div>
+				</div>
+				<div className="project-block-2">
+					<div className="description">
+						<p>
+							A mobile app dedicated to the conservation of animals, to be launched globally by Key
+							Conservation. For this project, the team members learned React Native in 2 weeks, in order
+							to start building on previously written code from other teams. Collaborated with another
+							developer to create the on-boarding process screens and an in-app browser for the
+							on-boarding process screens. Created a map function that locates conservation organizations
+							in the world map overview.
+						</p>
+					</div>
+					<div className="libraries">
+						<p>Frameworks and Libraries used:</p>
+						<div className="libraries-icons">
+							<img src={react} alt="react" />
+							<img src={redux} alt="redux" />
+							<img src={vscode} alt="vscode" />
+						</div>
+					</div>
+				</div>
+			</div>
+
 			<div className="route-project-card">
 				<div className="project-block-1">
 					<div className="project-name-img">
@@ -51,7 +93,7 @@ const Projects = () => {
 				<div className="project-block-2">
 					<div className="description">
 						<p>
-							Working with a team of other React developers, I was the 'lead senior' developer. We built
+							Working with a team of other React developers, I was the 'lead' React Developer. We built
 							an app to display information of Homeless people. Volunteers can register and login in order
 							to add, edit, delete cases. I took care of the Edit/Delete Cases Component and added
 							functionality to Login and Register components with Authorization tokens.
@@ -69,43 +111,6 @@ const Projects = () => {
 					</div>
 				</div>
 			</div>
-
-			<div className="route-project-card">
-				<div className="project-block-1">
-					<div className="project-name-img">
-						<h1>Smurfs Form with Redux</h1>
-						<img src={smurfsProject} alt="Smurfs Redux Project" />
-					</div>
-					<div className="links">
-						<a
-							href="https://github.com/irisjitomo/Sprint-Challenge-State-Management-Smurfs/tree/Iris-Jitomo"
-							target="_blank"
-						>
-							{/* <img src={gitHub} alt="gitHub" /> */}
-							GITHUB
-						</a>
-					</div>
-				</div>
-				<div className="project-block-2">
-					<div className="description">
-						<p>
-							I built an app using Reudx within 3 hours that deals with forms and state management. Once
-							the three form fields have been filled in, it will add to the smurfs array of objects. Once
-							the object has been added to the smurfs array, it will automatically display to the DOM.
-							Worked with reducers and actions in this project.
-						</p>
-					</div>
-					<div className="libraries">
-						<p>Frameworks and Libraries used:</p>
-						<div className="libraries-icons">
-							<img src={react} alt="react" />
-							<img src={redux} alt="redux" />
-							<img src={vscode} alt="vscode" />
-						</div>
-					</div>
-				</div>
-			</div>
-
 			<div className="route-project-card">
 				<div className="project-block-1">
 					<div className="project-name-img">
