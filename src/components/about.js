@@ -11,7 +11,6 @@ import githubWhite from '../images/icons/githubWhite.svg'; //
 import redux from '../images/icons/reduxWhite.svg'; //
 // import insom from '../images/icons/insomnia.ico';
 import vscode from '../images/icons/vscodeWhite.svg';
-import vscodeWhite from '../images/icons/vscodeWhite.svg';
 import less from '../images/icons/lessWhite.svg';
 import netlify from '../images/icons/netlifyWhite.svg';
 import profilePic from '../images/profile.png';
@@ -24,7 +23,7 @@ const About = () => {
 			<div className="about-home">
 				<div className="aboutMeCard">
 					<div className="image">
-						<img src={profilePic} alt="profile picture" />
+						<img src={profilePic} alt="profile pic" />
 					</div>
 					<div className="aboutMeCards">
 						<div className="aboutMe">

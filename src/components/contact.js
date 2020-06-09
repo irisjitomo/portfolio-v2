@@ -18,10 +18,10 @@ const Contact = () => {
 			<div className="contact-block-2">
 				<div className="contact-cards">
 					<div className="contact-about-me-card">
-						<a href="mailto:irisjitomo@yahoo.com" target="_blank">
+						<a href="mailto:irisjitomo@yahoo.com" target="_blank" rel="noopener noreferrer">
 							<img src={email} alt="send email" />
 						</a>
-                        <a href="mailto:irisjitomo@yahoo.com" target="_blank">
+                        <a href="mailto:irisjitomo@yahoo.com" target="_blank" rel="noopener noreferrer">
 						<h3>Email</h3>
 
 						</a>
@@ -29,20 +29,20 @@ const Contact = () => {
 				</div>
 				<div className="contact-cards">
 					<div className="contact-about-me-card">
-						<a href="https://www.linkedin.com/in/iris-jitomo-ab891b191/" target="_blank">
+						<a href="https://www.linkedin.com/in/iris-jitomo-ab891b191/" target="_blank" rel="noopener noreferrer">
 							<img src={linkedIn} alt="linkedIn" />
 						</a>
-                        <a href="https://www.linkedin.com/in/iris-jitomo-ab891b191/" target="_blank">
+                        <a href="https://www.linkedin.com/in/iris-jitomo-ab891b191/" target="_blank" rel="noopener noreferrer">
 						<h3>LinkedIn</h3>
 						</a>
 					</div>
 				</div>
                 <div className="contact-cards">
 					<div className="contact-about-me-card">
-						<a href="https://github.com/irisjitomo" target="_blank">
+						<a href="https://github.com/irisjitomo" target="_blank" rel="noopener noreferrer">
 							<img src={gitHub} alt="gitHub" />
 						</a>
-                        <a href="https://github.com/irisjitomo" target="_blank">
+                        <a href="https://github.com/irisjitomo" target="_blank" rel="noopener noreferrer">
                         <h3>GitHub</h3>
 						</a>
 						

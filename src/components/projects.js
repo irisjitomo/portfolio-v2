@@ -1,14 +1,10 @@
 import React from 'react';
 import Reunitr from '../images/reunitr.PNG';
-import smurfsProject from '../images/smurfsRedux.PNG';
 import pintereachDesktop from '../images/pintereachDesktop.PNG';
-import pintereachMobile from '../images/pintereachMobile.PNG';
 import keyCons from '../images/keyCons.PNG';
 
 import css3 from '../images/icons/css3Black.svg'; //
 import html5 from '../images/icons/html5Black.svg'; //
-import js from '../images/icons/javascriptBlack.svg'; //
-import nodejs from '../images/icons/nodeWhite.svg'; //
 import react from '../images/icons/reactBlack.svg'; //
 // import reactNative from '../images/icons/icons8-react-native-100.png';
 import git from '../images/icons/gitBlack.svg'; //
@@ -16,10 +12,8 @@ import gitHub from '../images/icons/githubBlack.svg'; //
 import redux from '../images/icons/reduxBlack.svg'; //
 // import insom from '../images/icons/insomnia.ico';
 import vscode from '../images/icons/vscodeBlack.svg';
-import vscodeWhite from '../images/icons/vscodeWhite.svg';
 import lessBlack from '../images/icons/lessBlack.svg';
 import netlify from '../images/icons/netlify.svg';
-import profilePic from '../images/profile.png';
 
 import './projects.scss';
 
@@ -37,12 +31,12 @@ const Projects = () => {
 						<img src={keyCons} alt="Key Conservation - App" />
 					</div>
 					<div className="links">
-						<a href="https://github.com/Lambda-School-Labs/key-conservation-mobile" target="_blank">
+						<a href="https://github.com/Lambda-School-Labs/key-conservation-mobile" target="_blank" rel="noopener noreferrer">
 							{/* <img src={gitHub} alt="gitHub" /> */}
 							GITHUB
 						</a>
 						<br />
-						<a href="https://www.keyconservation.org/" target="_blank">
+						<a href="https://www.keyconservation.org/" target="_blank" rel="noopener noreferrer">
 							{/* <img src={website} alt="site" /> */}
 							LINK
 						</a>
@@ -78,12 +72,12 @@ const Projects = () => {
 					</div>
 
 					<div className="links">
-						<a href="https://github.com/BW-Miracle-Messages/Front-End" target="_blank">
+						<a href="https://github.com/BW-Miracle-Messages/Front-End" target="_blank" rel="noopener noreferrer">
 							{/* <img src={gitHub} alt="gitHub" /> */}
 							GITHUB
 						</a>
 						{/* <br /> */}
-						<a href="https://buildweek-reunite.now.sh" target="_blank">
+						<a href="https://buildweek-reunite.now.sh" target="_blank" rel="noopener noreferrer">
 							{/* <img src={website} alt="site" /> */}
 							LINK
 						</a>
@@ -129,12 +123,12 @@ const Projects = () => {
 						</div>
 					</div>
 					<div className="links">
-						<a href="https://github.com/build-week-pintereach-2/Marketing-Page" target="_blank">
+						<a href="https://github.com/build-week-pintereach-2/Marketing-Page" target="_blank" rel="noopener noreferrer">
 							{/* <img src={gitHub} alt="gitHub" /> */}
 							GITHUB
 						</a>
 						<br />
-						<a href="https://pintereach-buildweek-web22.netlify.com/index.html" target="_blank">
+						<a href="https://pintereach-buildweek-web22.netlify.com/index.html" target="_blank" rel="noopener noreferrer">
 							{/* <img src={website} alt="site" /> */}
 							LINK
 						</a>

@@ -17,7 +17,7 @@ const Header = () => {
 								offset={-70}
 								duration={1000}
 								to="AboutMe"
-								activeClassName="selected"
+								// activeClassName="selected"
 							>
 								About
 							</Link>
@@ -30,7 +30,7 @@ const Header = () => {
 								offset={-70}
 								duration={1000}
 								to="skills"
-								activeClassName="selected"
+								// activeClassName="selected"
 							>
 								Skills
 							</Link>
@@ -43,7 +43,7 @@ const Header = () => {
 								offset={-70}
 								duration={1000}
 								to="Projects"
-								activeClassName="selected"
+								// activeClassName="selected"
 							>
 								Projects
 							</Link>
@@ -56,7 +56,7 @@ const Header = () => {
 								offset={-70}
 								duration={1000}
 								to="Contact"
-								activeClassName="selected"
+								// activeClassName="selected"
 							>
 								Contact
 							</Link>
