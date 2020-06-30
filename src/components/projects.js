@@ -1,7 +1,9 @@
 import React from 'react';
 import Reunitr from '../images/reunitr.PNG';
 import pintereachDesktop from '../images/pintereachDesktop.PNG';
+import recipeCheqr from '../images/recipeCheqr.PNG';
 import keyCons from '../images/keyCons.PNG';
+import nodejs from '../images/icons/nodeBlack.svg'; //
 
 import css3 from '../images/icons/css3Black.svg'; //
 import html5 from '../images/icons/html5Black.svg'; //
@@ -31,7 +33,11 @@ const Projects = () => {
 						<img src={keyCons} alt="Key Conservation - App" />
 					</div>
 					<div className="links">
-						<a href="https://github.com/Lambda-School-Labs/key-conservation-mobile" target="_blank" rel="noopener noreferrer">
+						<a
+							href="https://github.com/Lambda-School-Labs/key-conservation-mobile"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							{/* <img src={gitHub} alt="gitHub" /> */}
 							GITHUB
 						</a>
@@ -54,10 +60,57 @@ const Projects = () => {
 						</p>
 					</div>
 					<div className="libraries">
-						<p>Frameworks and Libraries used:</p>
+						<p>Technologies used:</p>
 						<div className="libraries-icons">
 							<img src={react} alt="react" />
 							<img src={redux} alt="redux" />
+							<img src={vscode} alt="vscode" />
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div className="route-project-card">
+				<div className="project-block-1">
+					<div className="project-name-img">
+						<h1>Recipe Cheqr</h1>
+						<img src={recipeCheqr} alt="Recipe Cheqr - App" />
+					</div>
+					<div className="links">
+						<a
+							href="https://github.com/irisjitomo/recipe-site-7days7websites"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							{/* <img src={gitHub} alt="gitHub" /> */}
+							GITHUB
+						</a>
+						<br />
+						<a href="https://recipecheqr.netlify.app/" target="_blank" rel="noopener noreferrer">
+							{/* <img src={website} alt="site" /> */}
+							LINK
+						</a>
+					</div>
+				</div>
+				<div className="project-block-2">
+					<div className="description">
+						<p>
+							What started off as a one day project turned into a passion project with collaboration of
+							another developer. This app uses an API provided by RapidAPI to retreive recipes based on
+							cuisine, ingredients to leave out, food intolerances. I built the skeleton of the client app
+							and implemented a great number of features on the front end stack. I also built a backend
+							using NodeJS/Express launched with Heroku so that users can make a profile, save recipes and
+							delete them. This app features a search function which takes in certain parameters to narrow
+							down recipe searches to your liking. The other developer built a grocery list feature for the app. This app also asks users to accept cookies as it needs
+							them to make requests to the API and limit requests due to API limits per day from RapidAPI. Clever use of local storage values.
+							A dynamic header based on whoever is logged in. We put a lot of hours and great care for this project. This project will still recieve features in the future.
+						</p>
+					</div>
+					<div className="libraries">
+						<p>Technologies used:</p>
+						<div className="libraries-icons">
+							<img src={react} alt="react" />
+							<img src={nodejs} alt="nodejs" />
 							<img src={vscode} alt="vscode" />
 						</div>
 					</div>
@@ -72,7 +125,11 @@ const Projects = () => {
 					</div>
 
 					<div className="links">
-						<a href="https://github.com/BW-Miracle-Messages/Front-End" target="_blank" rel="noopener noreferrer">
+						<a
+							href="https://github.com/BW-Miracle-Messages/Front-End"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							{/* <img src={gitHub} alt="gitHub" /> */}
 							GITHUB
 						</a>
@@ -87,14 +144,14 @@ const Projects = () => {
 				<div className="project-block-2">
 					<div className="description">
 						<p>
-							Working with a team of other React developers, I was the 'lead' React Developer. We built
-							an app to display information of Homeless people. Volunteers can register and login in order
-							to add, edit, delete cases. I took care of the Edit/Delete Cases Component and added
+							Working with a team of other React developers, I was the 'lead' React Developer. We built an
+							app to display information of Homeless people. Volunteers can register and login in order to
+							add, edit, delete cases. I took care of the Edit/Delete Cases Component and added
 							functionality to Login and Register components with Authorization tokens.
 						</p>
 					</div>
 					<div className="libraries">
-						<p>Frameworks and Libraries used:</p>
+						<p>Technologies used:</p>
 						<div className="libraries-icons">
 							<img src={react} alt="react" />
 							<img src={redux} alt="redux" />
@@ -123,12 +180,20 @@ const Projects = () => {
 						</div>
 					</div>
 					<div className="links">
-						<a href="https://github.com/build-week-pintereach-2/Marketing-Page" target="_blank" rel="noopener noreferrer">
+						<a
+							href="https://github.com/build-week-pintereach-2/Marketing-Page"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							{/* <img src={gitHub} alt="gitHub" /> */}
 							GITHUB
 						</a>
 						<br />
-						<a href="https://pintereach-buildweek-web22.netlify.com/index.html" target="_blank" rel="noopener noreferrer">
+						<a
+							href="https://pintereach-buildweek-web22.netlify.com/index.html"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							{/* <img src={website} alt="site" /> */}
 							LINK
 						</a>
@@ -145,7 +210,7 @@ const Projects = () => {
 						</p>
 					</div>
 					<div className="libraries">
-						<p>Frameworks and Libraries used:</p>
+						<p>Technologies used:</p>
 						<div className="libraries-icons">
 							<img src={html5} alt="html5" />
 							<img src={css3} alt="css3" />
