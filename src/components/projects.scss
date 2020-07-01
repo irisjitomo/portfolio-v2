@@ -149,11 +149,11 @@
 		flex-direction: column;
 		.project-block-1 {
 			
-	max-width: 500px;
+	// max-width: 500px;
 			width: 100%;
 			margin-bottom: 0;
 			img {
-				width: 80%;
+				width: 65%;
 			}
 			.links a {
 				border-bottom:1px solid black;
@@ -161,8 +161,6 @@
 		}
 		.project-block-2 {
 			width: 92%;
-			// margin-left: 1%;
-			// text-align: left;
 			.description p {
 				letter-spacing: 1.2px;
 				font-size: 0.95rem;
@@ -173,8 +171,6 @@
 				img {
 					width: 10%;
 					object-fit: contain;
-					// height: auto;
-					// height: 50%;
 				}
 			}
 		}
