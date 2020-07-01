@@ -79,14 +79,18 @@
 	}
 }
 
-@media (max-width: 768px) {
+// @media (max-width: 1400px) {
+// 	.image 
+// }
+
+@media (max-width: 1300px) {
 	.about-home{
-		max-width: 768px;
+		// max-width: 768px;
 		.aboutMeCard{
 			display: flex;
 			flex-direction: column;
 			.image {
-				max-width: 768px;
+				// max-width: 768px;
 				// width: 100%;
 				// margin-left: 30%;
 				margin:auto;
