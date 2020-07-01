@@ -95,15 +95,17 @@ const Projects = () => {
 				<div className="project-block-2">
 					<div className="description">
 						<p>
-							What started off as a one day project turned into a passion project with collaboration of
-							another developer. This app uses an API provided by RapidAPI to retreive recipes based on
+							What started off as a one day project turned into a passion project with the collaboration
+							of another developer. This app uses an API provided by RapidAPI to retrieve recipes based on
 							cuisine, ingredients to leave out, food intolerances. I built the skeleton of the client app
 							and implemented a great number of features on the front end stack. I also built a backend
-							using NodeJS/Express launched with Heroku so that users can make a profile, save recipes and
-							delete them. This app features a search function which takes in certain parameters to narrow
-							down recipe searches to your liking. The other developer built a grocery list feature for the app. This app also asks users to accept cookies as it needs
-							them to make requests to the API and limit requests due to API limits per day from RapidAPI. Clever use of local storage values.
-							A dynamic header based on whoever is logged in. We put a lot of hours and great care for this project. This project will still recieve features in the future.
+							using NodeJS/Express launched with Heroku so that users can make a profile, save recipes,
+							and delete them. This app features a search function that takes in certain parameters to
+							narrow down recipe searches to your liking. The other developer built a grocery list feature
+							for the app. This app also asks users to accept cookies as it needs them to make requests to
+							the API and limit requests due to API limits per day from RapidAPI. Clever use of local
+							storage values. A dynamic header based on whoever is logged in. We put a lot of hours and
+							great care for this project. This project will still recieve features in the future.
 						</p>
 					</div>
 					<div className="libraries">
