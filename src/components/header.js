@@ -45,7 +45,7 @@ const Header = () => {
 								to="Projects"
 								// activeClassName="selected"
 							>
-								Projects
+								Work
 							</Link>
 						</li>
 						<li className="nav-item">

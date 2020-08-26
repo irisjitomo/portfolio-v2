@@ -23,7 +23,7 @@ const Projects = () => {
 	return (
 		<div className="projects-home">
 			<div className="subtitle">
-				<h1>PROJECTS</h1>
+				<h1>Work</h1>
 			</div>
 
 			<div className="route-project-card">
