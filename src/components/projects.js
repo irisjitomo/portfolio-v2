@@ -24,7 +24,6 @@ const Projects = () => {
 		<div className="projects-home">
 			<div className="subtitle">
 				<h1>Work</h1>
-				<h3>An overview of my best work</h3>
 			</div>
 
 			<div className="route-project-card">
