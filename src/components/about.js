@@ -67,17 +67,17 @@ const About = () => {
 					<Tooltip title='JavaScript' arrow>
 					<img src={js} alt="javascript" />
 					</Tooltip>
-					<Tooltip title='ReactJS' arrow>
-					<img src={react} alt="react" />
-					</Tooltip>
-					<Tooltip title='Redux' arrow>
-					<img src={redux} alt="redux" />
-					</Tooltip>
 					<Tooltip title='SASS/SCSS' arrow>
 					<img src={scss} alt="SCSS/SASS" />
 					</Tooltip>
 					<Tooltip title='LESS' arrow>
 					<img src={less} alt="less-compiler" />
+					</Tooltip>
+					<Tooltip title='ReactJS' arrow>
+					<img src={react} alt="react" />
+					</Tooltip>
+					<Tooltip title='Redux' arrow>
+					<img src={redux} alt="redux" />
 					</Tooltip>
 					<Tooltip title='NODE.JS' arrow>
 					<img src={nodejs} alt="nodeJS" />
