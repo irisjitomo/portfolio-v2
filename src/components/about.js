@@ -15,6 +15,7 @@ import less from '../images/icons/lessWhite.svg';
 import netlify from '../images/icons/netlifyWhite.svg';
 import profilePic from '../images/profile.png';
 import python from '../images/icons/icons8-python.svg'
+import { Tooltip } from '@material-ui/core'
 
 import './about.scss';
 const About = () => {
@@ -55,19 +56,43 @@ const About = () => {
 					<h1>SKILLS</h1>
 				</div>
 				<div className="skills-cards">
+					<Tooltip title='HTML5' arrow>
 					<img src={html5} alt="html5" />
+					</Tooltip>
+					<Tooltip title='JavaScript' arrow>
 					<img src={js} alt="javascript" />
+					</Tooltip>
+					<Tooltip title='CSS3' arrow>
 					<img src={css3} alt="css3" />
+					</Tooltip>
+					<Tooltip title='LESS' arrow>
 					<img src={less} alt="less-compiler" />
+					</Tooltip>
+					<Tooltip title='NODE.JS' arrow>
 					<img src={nodejs} alt="nodeJS" />
-					{/* <img src={reactNative} alt="reactNative" /> */}
+					</Tooltip>
+					<Tooltip title='ReactJS' arrow>
 					<img src={react} alt="react" />
+					</Tooltip>
+					<Tooltip title='Redux' arrow>
 					<img src={redux} alt="redux" />
+					</Tooltip>
+					<Tooltip title='GIT' arrow>
 					<img src={git} alt="git" />
+					</Tooltip>
+					<Tooltip title='Github' arrow>
 					<img src={githubWhite} alt="gitHub" />
+					</Tooltip>
+					<Tooltip title='VSCode' arrow>
 					<img src={vscode} alt="vscode" />
+					</Tooltip>
+					<Tooltip title='Netlify' arrow>
 					<img src={netlify} alt="netlify" />
+					</Tooltip>
+					<Tooltip title='Python' arrow>
 					<img src={python} alt="python" />
+					</Tooltip>
+					{/* <img src={reactNative} alt="reactNative" /> */}
 				</div>
 			</div>
 		</div>
