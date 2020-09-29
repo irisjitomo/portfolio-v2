@@ -58,48 +58,48 @@ const About = () => {
 					<h1>SKILLS</h1>
 				</div>
 				<div className="skills-cards">
-					{/* <Tooltip title='HTML5' arrow> */}
+					<Tooltip title='HTML5' arrow>
 					<img src={html5} alt="html5" />
-					{/* </Tooltip> */}
-					{/* <Tooltip title='CSS3' arrow> */}
+					</Tooltip>
+					<Tooltip title='CSS3' arrow>
 					<img src={css3} alt="css3" />
-					{/* </Tooltip> */}
-					{/* <Tooltip title='JavaScript' arrow> */}
+					</Tooltip>
+					<Tooltip title='JavaScript' arrow>
 					<img src={js} alt="javascript" />
-					{/* </Tooltip> */}
-					{/* <Tooltip title='SASS/SCSS' arrow> */}
+					</Tooltip>
+					<Tooltip title='SASS/SCSS' arrow>
 					<img src={scss} alt="SCSS/SASS" />
-					{/* </Tooltip> */}
-					{/* <Tooltip title='LESS' arrow> */}
+					</Tooltip>
+					<Tooltip title='LESS' arrow>
 					<img src={less} alt="less-compiler" />
-					{/* </Tooltip> */}
-					{/* <Tooltip title='ReactJS' arrow> */}
+					</Tooltip>
+					<Tooltip title='ReactJS' arrow>
 					<img src={react} alt="react" />
-					{/* </Tooltip> */}
-					{/* <Tooltip title='Redux' arrow> */}
+					</Tooltip>
+					<Tooltip title='Redux' arrow>
 					<img src={redux} alt="redux" />
-					{/* </Tooltip> */}
-					{/* <Tooltip title='NODE.JS' arrow> */}
+					</Tooltip>
+					<Tooltip title='NODE.JS' arrow>
 					<img src={nodejs} alt="nodeJS" />
-					{/* </Tooltip> */}
-					{/* <Tooltip title='Express.js' arrow> */}
+					</Tooltip>
+					<Tooltip title='Express.js' arrow>
 					<img src={express} alt="Express.Js" />
-					{/* </Tooltip> */}
-					{/* <Tooltip title='Python' arrow> */}
+					</Tooltip>
+					<Tooltip title='Python' arrow>
 					<img src={python} alt="python" />
-					{/* </Tooltip> */}
-					{/* <Tooltip title='GIT' arrow> */}
+					</Tooltip>
+					<Tooltip title='GIT' arrow>
 					<img src={git} alt="git" />
-					{/* </Tooltip> */}
-					{/* <Tooltip title='Github' arrow> */}
+					</Tooltip>
+					<Tooltip title='Github' arrow>
 					<img src={githubWhite} alt="gitHub" />
-					{/* </Tooltip> */}
-					{/* <Tooltip title='VSCode' arrow> */}
+					</Tooltip>
+					<Tooltip title='VSCode' arrow>
 					<img src={vscode} alt="vscode" />
-					{/* </Tooltip> */}
-					{/* <Tooltip title='Netlify' arrow> */}
+					</Tooltip>
+					<Tooltip title='Netlify' arrow>
 					<img src={netlify} alt="netlify" />
-					{/* </Tooltip> */}
+					</Tooltip>
 					{/* <img src={reactNative} alt="reactNative" /> */}
 				</div>
 			</div>
