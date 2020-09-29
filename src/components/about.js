@@ -12,6 +12,7 @@ import redux from '../images/icons/reduxWhite.svg'; //
 // import insom from '../images/icons/insomnia.ico';
 import vscode from '../images/icons/vscodeWhite.svg';
 import less from '../images/icons/lessWhite.svg';
+import scss from '../images/icons/sass-lang.svg';
 import netlify from '../images/icons/netlifyWhite.svg';
 import profilePic from '../images/profile.png';
 import python from '../images/icons/icons8-python.svg'
@@ -71,6 +72,9 @@ const About = () => {
 					</Tooltip>
 					<Tooltip title='Redux' arrow>
 					<img src={redux} alt="redux" />
+					</Tooltip>
+					<Tooltip title='SASS/SCSS' arrow>
+					<img src={scss} alt="SCSS/SASS" />
 					</Tooltip>
 					<Tooltip title='LESS' arrow>
 					<img src={less} alt="less-compiler" />
