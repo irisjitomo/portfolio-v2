@@ -79,7 +79,7 @@ const About = () => {
 					<Tooltip title='Redux' arrow enterTouchDelay={50}>
 					<img src={redux} alt="redux" />
 					</Tooltip>
-					<Tooltip title='NODE.JS' arrow enterTouchDelay={50}>
+					<Tooltip title='Node.js' arrow enterTouchDelay={50}>
 					<img src={nodejs} alt="nodeJS" />
 					</Tooltip>
 					<Tooltip title='Express.js' arrow enterTouchDelay={50}>
