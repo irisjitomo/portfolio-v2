@@ -20,7 +20,7 @@ import netlify from '../images/icons/netlify.svg';
 import scss from '../images/icons/sass-black.svg';
 import express from '../images/icons/expressjsblack.svg';
 import pg from '../images/icons/postgresql.svg';
-
+import jwt from '../images/icons/jsonwebtokenBlack.svg'
 import { Tooltip } from '@material-ui/core';
 
 import './projects.scss';
@@ -141,17 +141,20 @@ const Projects = () => {
 							<Tooltip title="JavaScript" arrow enterTouchDelay={50}>
 								<img src={js} alt="javascript" />
 							</Tooltip>
-							<Tooltip title="React" arrow enterTouchDelay={50}>
-								<img src={react} alt="react" />
-							</Tooltip>
 							<Tooltip title="SASS/SCSS" arrow enterTouchDelay={50}>
 								<img src={scss} alt="SCSS/SASS" />
+							</Tooltip>
+							<Tooltip title="React" arrow enterTouchDelay={50}>
+								<img src={react} alt="react" />
 							</Tooltip>
 							<Tooltip title="Node.js" arrow enterTouchDelay={50}>
 								<img src={nodejs} alt="nodejs" />
 							</Tooltip>
 							<Tooltip title="Express" arrow enterTouchDelay={50}>
 								<img src={express} alt="express" />
+							</Tooltip>
+							<Tooltip title="JWT (Json Web Token)" arrow enterTouchDelay={50}>
+								<img src={jwt} alt="Json Web Token" />
 							</Tooltip>
 							<Tooltip title="PostgresSQL" arrow enterTouchDelay={50}>
 								<img src={pg} alt="Postgres" />
@@ -212,11 +215,11 @@ const Projects = () => {
 							<Tooltip title="JavaScript" arrow enterTouchDelay={50}>
 								<img src={js} alt="javascript" />
 							</Tooltip>
-							<Tooltip title="React" arrow enterTouchDelay={50}>
-								<img src={react} alt="react" />
-							</Tooltip>
 							<Tooltip title="SASS/SCSS" arrow enterTouchDelay={50}>
 								<img src={scss} alt="SCSS/SASS" />
+							</Tooltip>
+							<Tooltip title="React" arrow enterTouchDelay={50}>
+								<img src={react} alt="react" />
 							</Tooltip>
 							<Tooltip title="Redux" arrow enterTouchDelay={50}>
 								<img src={redux} alt="redux" />
@@ -226,6 +229,9 @@ const Projects = () => {
 							</Tooltip>
 							<Tooltip title="Express" arrow enterTouchDelay={50}>
 								<img src={express} alt="express" />
+							</Tooltip>
+							<Tooltip title="JWT (Json Web Token)" arrow enterTouchDelay={50}>
+								<img src={jwt} alt="Json Web Token" />
 							</Tooltip>
 							<Tooltip title="PostgresSQL" arrow enterTouchDelay={50}>
 								<img src={pg} alt="Postgres" />

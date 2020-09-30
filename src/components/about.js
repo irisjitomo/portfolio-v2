@@ -18,6 +18,7 @@ import profilePic from '../images/profile.png';
 import python from '../images/icons/icons8-python.svg'
 import express from '../images/icons/expressjs.svg'
 import pg from '../images/icons/postgresql.svg'
+import jwt from '../images/icons/jsonwebtoken.svg'
 
 import { Tooltip } from '@material-ui/core'
 
@@ -86,6 +87,9 @@ const About = () => {
 					</Tooltip>
 					<Tooltip title='Express.js' arrow enterTouchDelay={50}>
 					<img src={express} alt="Express.Js" />
+					</Tooltip>
+					<Tooltip title='JWT (Json Web Token)' arrow enterTouchDelay={50}>
+					<img src={jwt} alt="Json Web Token" />
 					</Tooltip>
 					<Tooltip title='PostgresSQL' arrow enterTouchDelay={50}>
 					<img src={pg} alt="PostgresSQL" />
