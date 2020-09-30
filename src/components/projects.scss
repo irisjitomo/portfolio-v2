@@ -16,6 +16,7 @@
 
 .route-project-card {
 	// border-top: solid black 2px;
+	padding: 20px;
 	.project-block-1 {
 		h1 {
 			color: black;
@@ -42,12 +43,14 @@
 		}
 		.libraries-icons {
 			display: flex;
+			flex-wrap: wrap;
 			justify-content: space-evenly;
 		}
 		img {
-			padding: 20px;
+			// padding: 20px;
 			width: 8%;
-			height: auto;
+			// height: auto;
+			margin: 20px;
 		}
 		p {
 			font-size: 1.2rem;
@@ -212,9 +215,10 @@
 					font-size: 0.95rem;
 				}
 				.libraries-icons {
-					border-bottom: solid black 1px;
+					border-bottom: solid white 3px;
 					height: 10vh;
 					img {
+						// display: none;
 						width: 10%;
 						object-fit: contain;
 						// height: auto;

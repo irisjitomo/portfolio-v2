@@ -4,6 +4,7 @@ import pintereachDesktop from '../images/pintereachDesktop.PNG';
 import recipeCheqr from '../images/recipeCheqr.PNG';
 import keyCons from '../images/keyCons.PNG';
 import nodejs from '../images/icons/nodeBlack.svg'; //
+import js from '../images/icons/javascriptBlack.svg'; //
 
 import css3 from '../images/icons/css3Black.svg'; //
 import html5 from '../images/icons/html5Black.svg'; //
@@ -16,6 +17,11 @@ import redux from '../images/icons/reduxBlack.svg'; //
 import vscode from '../images/icons/vscodeBlack.svg';
 import lessBlack from '../images/icons/lessBlack.svg';
 import netlify from '../images/icons/netlify.svg';
+import scss from '../images/icons/sass-black.svg';
+import express from '../images/icons/expressjsblack.svg';
+import pg from '../images/icons/postgresql.svg';
+
+import { Tooltip } from '@material-ui/core';
 
 import './projects.scss';
 
@@ -62,9 +68,24 @@ const Projects = () => {
 					<div className="libraries">
 						<p>Technologies used:</p>
 						<div className="libraries-icons">
-							<img src={react} alt="react" />
-							<img src={redux} alt="redux" />
-							<img src={vscode} alt="vscode" />
+							<Tooltip title="HTML5" arrow enterTouchDelay={50}>
+								<img src={html5} alt="html5" />
+							</Tooltip>
+							<Tooltip title="CSS3" arrow enterTouchDelay={50}>
+								<img src={css3} alt="css3" />
+							</Tooltip>
+							<Tooltip title="JavaScript" arrow enterTouchDelay={50}>
+								<img src={js} alt="javascript" />
+							</Tooltip>
+							<Tooltip title="React" arrow enterTouchDelay={50}>
+								<img src={react} alt="react" />
+							</Tooltip>
+							<Tooltip title="Redux" arrow enterTouchDelay={50}>
+								<img src={redux} alt="redux" />
+							</Tooltip>
+							<Tooltip title="VSCode" arrow enterTouchDelay={50}>
+								<img src={vscode} alt="vscode" />
+							</Tooltip>
 						</div>
 					</div>
 				</div>
@@ -111,9 +132,36 @@ const Projects = () => {
 					<div className="libraries">
 						<p>Technologies used:</p>
 						<div className="libraries-icons">
-							<img src={react} alt="react" />
-							<img src={nodejs} alt="nodejs" />
-							<img src={vscode} alt="vscode" />
+							<Tooltip title="HTML5" arrow enterTouchDelay={50}>
+								<img src={html5} alt="html5" />
+							</Tooltip>
+							<Tooltip title="CSS3" arrow enterTouchDelay={50}>
+								<img src={css3} alt="css3" />
+							</Tooltip>
+							<Tooltip title="JavaScript" arrow enterTouchDelay={50}>
+								<img src={js} alt="javascript" />
+							</Tooltip>
+							<Tooltip title="React" arrow enterTouchDelay={50}>
+								<img src={react} alt="react" />
+							</Tooltip>
+							<Tooltip title="SASS/SCSS" arrow enterTouchDelay={50}>
+								<img src={scss} alt="SCSS/SASS" />
+							</Tooltip>
+							<Tooltip title="Node.js" arrow enterTouchDelay={50}>
+								<img src={nodejs} alt="nodejs" />
+							</Tooltip>
+							<Tooltip title="Express" arrow enterTouchDelay={50}>
+								<img src={express} alt="express" />
+							</Tooltip>
+							<Tooltip title="PostgresSQL" arrow enterTouchDelay={50}>
+								<img src={pg} alt="Postgres" />
+							</Tooltip>
+							<Tooltip title="VSCode" arrow enterTouchDelay={50}>
+								<img src={vscode} alt="vscode" />
+							</Tooltip>
+							<Tooltip title="Netlify" arrow enterTouchDelay={50}>
+								<img src={netlify} alt="netlify" />
+							</Tooltip>
 						</div>
 					</div>
 				</div>
@@ -155,11 +203,39 @@ const Projects = () => {
 					<div className="libraries">
 						<p>Technologies used:</p>
 						<div className="libraries-icons">
-							<img src={react} alt="react" />
-							<img src={redux} alt="redux" />
-							<img src={git} alt="git" />
-							<img src={gitHub} alt="gitHub" />
-							<img src={vscode} alt="vscode" />
+							<Tooltip title="HTML5" arrow enterTouchDelay={50}>
+								<img src={html5} alt="html5" />
+							</Tooltip>
+							<Tooltip title="CSS3" arrow enterTouchDelay={50}>
+								<img src={css3} alt="css3" />
+							</Tooltip>
+							<Tooltip title="JavaScript" arrow enterTouchDelay={50}>
+								<img src={js} alt="javascript" />
+							</Tooltip>
+							<Tooltip title="React" arrow enterTouchDelay={50}>
+								<img src={react} alt="react" />
+							</Tooltip>
+							<Tooltip title="SASS/SCSS" arrow enterTouchDelay={50}>
+								<img src={scss} alt="SCSS/SASS" />
+							</Tooltip>
+							<Tooltip title="Redux" arrow enterTouchDelay={50}>
+								<img src={redux} alt="redux" />
+							</Tooltip>
+							<Tooltip title="Node.js" arrow enterTouchDelay={50}>
+								<img src={nodejs} alt="nodejs" />
+							</Tooltip>
+							<Tooltip title="Express" arrow enterTouchDelay={50}>
+								<img src={express} alt="express" />
+							</Tooltip>
+							<Tooltip title="PostgresSQL" arrow enterTouchDelay={50}>
+								<img src={pg} alt="Postgres" />
+							</Tooltip>
+							<Tooltip title="VSCode" arrow enterTouchDelay={50}>
+								<img src={vscode} alt="vscode" />
+							</Tooltip>
+							<Tooltip title="Netlify" arrow enterTouchDelay={50}>
+								<img src={netlify} alt="netlify" />
+							</Tooltip>
 						</div>
 					</div>
 				</div>
@@ -214,11 +290,21 @@ const Projects = () => {
 					<div className="libraries">
 						<p>Technologies used:</p>
 						<div className="libraries-icons">
-							<img src={html5} alt="html5" />
-							<img src={css3} alt="css3" />
-							<img src={lessBlack} alt="less" />
-							<img src={vscode} alt="vscode" />
-							<img src={netlify} alt="netlify" />
+							<Tooltip title="HTML5" arrow enterTouchDelay={50}>
+								<img src={html5} alt="html5" />
+							</Tooltip>
+							<Tooltip title="CSS3" arrow enterTouchDelay={50}>
+								<img src={css3} alt="css3" />
+							</Tooltip>
+							<Tooltip title="LESS" arrow enterTouchDelay={50}>
+								<img src={lessBlack} alt="less-compiler" />
+							</Tooltip>
+							<Tooltip title="VSCode" arrow enterTouchDelay={50}>
+								<img src={vscode} alt="vscode" />
+							</Tooltip>
+							<Tooltip title="Netlify" arrow enterTouchDelay={50}>
+								<img src={netlify} alt="netlify" />
+							</Tooltip>
 						</div>
 					</div>
 				</div>
