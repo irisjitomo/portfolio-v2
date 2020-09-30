@@ -17,6 +17,8 @@ import netlify from '../images/icons/netlifyWhite.svg';
 import profilePic from '../images/profile.png';
 import python from '../images/icons/icons8-python.svg'
 import express from '../images/icons/expressjs.svg'
+import pg from '../images/icons/postgresql.svg'
+
 import { Tooltip } from '@material-ui/core'
 
 import './about.scss';
@@ -85,6 +87,9 @@ const About = () => {
 					<Tooltip title='Express.js' arrow enterTouchDelay={50}>
 					<img src={express} alt="Express.Js" />
 					</Tooltip>
+					<Tooltip title='PostgresSQL' arrow enterTouchDelay={50}>
+					<img src={pg} alt="PostgresSQL" />
+					</Tooltip>
 					<Tooltip title='Python' arrow enterTouchDelay={50}>
 					<img src={python} alt="python" />
 					</Tooltip>
@@ -100,6 +105,7 @@ const About = () => {
 					<Tooltip title='Netlify' arrow enterTouchDelay={50}>
 					<img src={netlify} alt="netlify" />
 					</Tooltip>
+
 					{/* <img src={reactNative} alt="reactNative" /> */}
 				</div>
 			</div>
