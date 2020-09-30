@@ -77,7 +77,7 @@ const Projects = () => {
 							<Tooltip title="JavaScript" arrow enterTouchDelay={50}>
 								<img src={js} alt="javascript" />
 							</Tooltip>
-							<Tooltip title="React" arrow enterTouchDelay={50}>
+							<Tooltip title="React-Native" arrow enterTouchDelay={50}>
 								<img src={react} alt="react" />
 							</Tooltip>
 							<Tooltip title="Redux" arrow enterTouchDelay={50}>
