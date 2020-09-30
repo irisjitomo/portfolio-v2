@@ -58,46 +58,46 @@ const About = () => {
 					<h1>SKILLS</h1>
 				</div>
 				<div className="skills-cards">
-					<Tooltip title='HTML5' arrow>
+					<Tooltip title='HTML5' arrow enterTouchDelay={50}>
 					<img src={html5} alt="html5" />
 					</Tooltip>
-					<Tooltip title='CSS3' arrow>
+					<Tooltip title='CSS3' arrow enterTouchDelay={50}>
 					<img src={css3} alt="css3" />
 					</Tooltip>
-					<Tooltip title='JavaScript' arrow>
+					<Tooltip title='JavaScript' arrow enterTouchDelay={50}>
 					<img src={js} alt="javascript" />
 					</Tooltip>
-					<Tooltip title='SASS/SCSS' arrow>
+					<Tooltip title='SASS/SCSS' arrow enterTouchDelay={50}>
 					<img src={scss} alt="SCSS/SASS" />
 					</Tooltip>
-					<Tooltip title='LESS' arrow>
+					<Tooltip title='LESS' arrow enterTouchDelay={50}>
 					<img src={less} alt="less-compiler" />
 					</Tooltip>
-					<Tooltip title='ReactJS' arrow>
+					<Tooltip title='ReactJS' arrow enterTouchDelay={50}>
 					<img src={react} alt="react" />
 					</Tooltip>
-					<Tooltip title='Redux' arrow>
+					<Tooltip title='Redux' arrow enterTouchDelay={50}>
 					<img src={redux} alt="redux" />
 					</Tooltip>
-					<Tooltip title='NODE.JS' arrow>
+					<Tooltip title='NODE.JS' arrow enterTouchDelay={50}>
 					<img src={nodejs} alt="nodeJS" />
 					</Tooltip>
-					<Tooltip title='Express.js' arrow>
+					<Tooltip title='Express.js' arrow enterTouchDelay={50}>
 					<img src={express} alt="Express.Js" />
 					</Tooltip>
-					<Tooltip title='Python' arrow>
+					<Tooltip title='Python' arrow enterTouchDelay={50}>
 					<img src={python} alt="python" />
 					</Tooltip>
-					<Tooltip title='GIT' arrow>
+					<Tooltip title='GIT' arrow enterTouchDelay={50}>
 					<img src={git} alt="git" />
 					</Tooltip>
-					<Tooltip title='Github' arrow>
+					<Tooltip title='Github' arrow enterTouchDelay={50}>
 					<img src={githubWhite} alt="gitHub" />
 					</Tooltip>
-					<Tooltip title='VSCode' arrow>
+					<Tooltip title='VSCode' arrow enterTouchDelay={50}>
 					<img src={vscode} alt="vscode" />
 					</Tooltip>
-					<Tooltip title='Netlify' arrow>
+					<Tooltip title='Netlify' arrow enterTouchDelay={50}>
 					<img src={netlify} alt="netlify" />
 					</Tooltip>
 					{/* <img src={reactNative} alt="reactNative" /> */}
