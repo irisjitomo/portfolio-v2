@@ -50,7 +50,7 @@
 				width: 8%;
 				// height: auto;
 				margin: 20px;
-				border: 2px solid red;
+				// border: 2px solid red;
 			}
 		}
 		p {
@@ -216,23 +216,32 @@
 					letter-spacing: 1.2px;
 					font-size: 0.95rem;
 				}
-				.libraries-icons {
-					display: flex;
-					// display: none;
-					// padding: 20px;
-					border-bottom: solid white 3px;
-					height: 10vh;
-					align-content: center;
-					// border: 2px solid red;
-					img {
+				.libraries {
+					.libraries-subtitle {
+						margin-bottom: 20%;
 						// display: none;
-						// width: 9%;
-						margin: -3px;
-					border: 2px solid red;
-
-						// object-fit: contain;
-						// height: auto;
-						// height: 50%;
+					}
+					.libraries-icons {
+						display: flex;
+						margin-top: 35%;
+						// display: none;
+						// padding: 20px;
+						border-bottom: solid white 3px;
+						// height: 10vh;
+						align-content: center;
+						// border: 2px solid red;
+						img {
+							// display: none;
+							// width: 14%;
+							margin: 1px;
+						// border: 2px solid red;
+						height: 27.5%;
+							padding: 20px;
+							// object-fit: contain;
+							// height: auto;
+							// height: 50%;
+							// size: 100%;
+						}
 					}
 				}
 			}

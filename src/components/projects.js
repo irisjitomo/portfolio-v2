@@ -66,7 +66,9 @@ const Projects = () => {
 						</p>
 					</div>
 					<div className="libraries">
+						<div className='libraries-subtitle'>
 						<p>Technologies used:</p>
+						</div>
 						<div className="libraries-icons">
 							<Tooltip title="HTML5" arrow enterTouchDelay={50}>
 								<img src={html5} alt="html5" />
@@ -130,7 +132,9 @@ const Projects = () => {
 						</p>
 					</div>
 					<div className="libraries">
+					<div className='libraries-subtitle'>
 						<p>Technologies used:</p>
+						</div>
 						<div className="libraries-icons">
 							<Tooltip title="HTML5" arrow enterTouchDelay={50}>
 								<img src={html5} alt="html5" />
@@ -204,7 +208,9 @@ const Projects = () => {
 						</p>
 					</div>
 					<div className="libraries">
+					<div className='libraries-subtitle'>
 						<p>Technologies used:</p>
+						</div>
 						<div className="libraries-icons">
 							<Tooltip title="HTML5" arrow enterTouchDelay={50}>
 								<img src={html5} alt="html5" />
@@ -294,7 +300,9 @@ const Projects = () => {
 						</p>
 					</div>
 					<div className="libraries">
+					<div className='libraries-subtitle'>
 						<p>Technologies used:</p>
+						</div>
 						<div className="libraries-icons">
 							<Tooltip title="HTML5" arrow enterTouchDelay={50}>
 								<img src={html5} alt="html5" />
