@@ -160,7 +160,7 @@ const Projects = () => {
 							<Tooltip title="JWT (Json Web Token)" arrow enterTouchDelay={50}>
 								<img src={jwt} alt="Json Web Token" />
 							</Tooltip>
-							<Tooltip title="PostgresSQL" arrow enterTouchDelay={50}>
+							<Tooltip title="PostgreSQL" arrow enterTouchDelay={50}>
 								<img src={pg} alt="Postgres" />
 							</Tooltip>
 							<Tooltip title="VSCode" arrow enterTouchDelay={50}>
@@ -239,7 +239,7 @@ const Projects = () => {
 							<Tooltip title="JWT (Json Web Token)" arrow enterTouchDelay={50}>
 								<img src={jwt} alt="Json Web Token" />
 							</Tooltip>
-							<Tooltip title="PostgresSQL" arrow enterTouchDelay={50}>
+							<Tooltip title="PostgreSQL" arrow enterTouchDelay={50}>
 								<img src={pg} alt="Postgres" />
 							</Tooltip>
 							<Tooltip title="VSCode" arrow enterTouchDelay={50}>
