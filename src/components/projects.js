@@ -10,8 +10,8 @@ import css3 from '../images/icons/css3Black.svg'; //
 import html5 from '../images/icons/html5Black.svg'; //
 import react from '../images/icons/reactBlack.svg'; //
 // import reactNative from '../images/icons/icons8-react-native-100.png';
-import git from '../images/icons/gitBlack.svg'; //
-import gitHub from '../images/icons/githubBlack.svg'; //
+// import git from '../images/icons/gitBlack.svg'; //
+// import gitHub from '../images/icons/githubBlack.svg'; //
 import redux from '../images/icons/reduxBlack.svg'; //
 // import insom from '../images/icons/insomnia.ico';
 import vscode from '../images/icons/vscodeBlack.svg';

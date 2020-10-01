@@ -45,12 +45,13 @@
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: space-evenly;
-		}
-		img {
-			// padding: 20px;
-			width: 8%;
-			// height: auto;
-			margin: 20px;
+			img {
+				// padding: 20px;
+				width: 8%;
+				// height: auto;
+				margin: 20px;
+				border: 2px solid red;
+			}
 		}
 		p {
 			font-size: 1.2rem;
@@ -180,6 +181,7 @@
 				img {
 					width: 10%;
 					object-fit: contain;
+					// margin: 10px;
 				}
 			}
 		}
@@ -215,12 +217,20 @@
 					font-size: 0.95rem;
 				}
 				.libraries-icons {
+					display: flex;
+					// display: none;
+					// padding: 20px;
 					border-bottom: solid white 3px;
 					height: 10vh;
+					align-content: center;
+					// border: 2px solid red;
 					img {
 						// display: none;
-						width: 10%;
-						object-fit: contain;
+						// width: 9%;
+						margin: -3px;
+					border: 2px solid red;
+
+						// object-fit: contain;
 						// height: auto;
 						// height: 50%;
 					}

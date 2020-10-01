@@ -109,8 +109,6 @@ const About = () => {
 					<Tooltip title='Netlify' arrow enterTouchDelay={50}>
 					<img src={netlify} alt="netlify" />
 					</Tooltip>
-
-					{/* <img src={reactNative} alt="reactNative" /> */}
 				</div>
 			</div>
 		</div>
