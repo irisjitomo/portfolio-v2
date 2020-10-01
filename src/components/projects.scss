@@ -16,6 +16,8 @@
 
 .route-project-card {
 	// border-top: solid black 2px;
+	// margin-top: 220px;
+	// display: none;
 	padding: 20px;
 	.project-block-1 {
 		h1 {
@@ -63,6 +65,8 @@
 	display: flex;
 	margin: 2%;
 	align-items: center;
+	// display: none;
+	margin-top: 11.5%;
 
 	.project-block-1 .project-name-img {
 		img {
