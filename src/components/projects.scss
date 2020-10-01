@@ -177,7 +177,8 @@
 			}
 			.libraries-icons {
 				border-bottom: solid black 1px;
-				height: 13vh;
+						border-bottom: solid white 3px;
+						height: 13vh;
 				img {
 					width: 10%;
 					object-fit: contain;
@@ -201,8 +202,19 @@
 				max-width: 500px;
 				width: 100%;
 				margin-bottom: 0;
-				img {
-					width: 80%;
+				.project-name-img {
+					h1 {
+						// display: none;
+						letter-spacing: 7px;
+						// padding: 20px;
+						// object-fit: inherit;
+						align-content: center;
+						align-items: center;
+						align-self: center;
+					}
+					img {
+						width: 80%;
+					}
 				}
 				.links a {
 					border-bottom: 1px solid black;
