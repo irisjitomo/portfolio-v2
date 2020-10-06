@@ -3,6 +3,8 @@ import React from 'react'
 import './topImage.scss'
 
 const TopImage = () => {
+
+
     return (
         <div className="topImage">
             <div className="title">
